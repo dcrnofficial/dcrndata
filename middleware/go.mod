@@ -16,3 +16,6 @@ require (
 	github.com/patrickmn/go-cache v2.1.0+incompatible // indirect
 	golang.org/x/time v0.0.0-20190308202827-9d24e82272b4 // indirect
 )
+replace (
+	github.com/decred/dcrd/wire v1.3.0 => ../../dcrnd/wire
+)

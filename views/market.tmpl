@@ -2,7 +2,7 @@
 {{- $botState := .XcState -}}
 <!DOCTYPE html>
 <html lang="en">
-{{template "html-head" "Decred Market Data"}}
+{{template "html-head" "Decred-Next Market Data"}}
 <body class="{{ theme }}" style="background-color: #3d5873;">
 
 {{- template "navbar" . -}}
@@ -18,7 +18,7 @@
 
         {{- /* PRICE */ -}}
         <div class="ml-4 mr-2 my-4 p-2 p-lg-4 bg-white text-center">
-            <div class="text-center fs18 text-secondary">1 DCR =</div>
+            <div class="text-center fs18 text-secondary">1 DCRN =</div>
             {{if eq $botState.BtcIndex "USD"}}
                 <span class="fs18 font-weight-bold d-inline-block pt-1" style="vertical-align:top;">$</span>
             {{end}}
@@ -28,12 +28,12 @@
 
         {{- /* DCR/BTC MARKETS */ -}}
         <div class="ml-4 mr-2 my-4 p-2 p-lg-4 bg-white">
-            <div colspan="4" class="fs24 text-center pb-4"><span class="dcricon-coin-negative fs24 mr-2"></span> Decred Markets</div>
+            <div colspan="4" class="fs24 text-center pb-4"><span class="dcricon-coin-negative fs24 mr-2"></span> Decred-Next Markets</div>
             <table class="mx-auto mx-lg-3">
                 <tbody>
                     <tr class="fs14 lh1rem">
                       <td></td>
-                      <td class="text-right font-weight-bold">DCR Vol.</td>
+                      <td class="text-right font-weight-bold">DCRN Vol.</td>
                       <td class="text-right font-weight-bold">BTC</td>
                       <td></td>
                       <td class="text-right font-weight-bold">{{$botState.BtcIndex}}</td>

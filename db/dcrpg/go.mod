@@ -8,6 +8,8 @@ replace (
 	github.com/decred/dcrdata/explorer/types/v2 => ../../explorer/types
 	github.com/decred/dcrdata/mempool/v5 => ../../mempool
 	github.com/decred/dcrdata/txhelpers/v4 => ../../txhelpers
+	github.com/decred/dcrd/wire v1.3.0 => ../../../dcrnd/wire
+	github.com/decred/dcrdata/blockdata/v5 v5.0.1 => ../../blockdata
 )
 
 require (
@@ -37,4 +39,8 @@ require (
 	github.com/dmigwi/go-piparser/proposals v0.0.0-20191219171828-ae8cbf4067e1
 	github.com/dustin/go-humanize v1.0.0
 	github.com/lib/pq v1.2.0
+)
+
+replace (
+	github.com/decred/dcrd/blockchain/stake/v2 v2.0.2 => ../../../dcrnd/blockchain/stake
 )

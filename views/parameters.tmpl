@@ -1,12 +1,12 @@
 {{define "parameters"}}
 <!DOCTYPE html>
 <html lang="en">
-    {{ template "html-head" printf "Decred Chain Parameters"}}
+    {{ template "html-head" printf "Decred-Next Chain Parameters"}}
         {{template "navbar" . }}
         <div class="container main">
             <div class="row justify-content-between">
                 <div class="col-lg-14 col-sm-12 d-flex">
-                    <h4 class="mb-2">Parameters for Decred {{.ChainParams.Name}}
+                    <h4 class="mb-2">Parameters for Decred-Next {{.ChainParams.Name}}
                       <span class="fs12" >
                         from <a href="{{.Links.NetParams}}">chaincfg/params.go</a>
                       </span>
@@ -117,7 +117,7 @@
                                 <td class="mono text-left pr-2 nowrap p03rem0">BaseSubsidy</td>
                                 <td>
                                     {{template "decimalParts" (amountAsDecimalParts .ChainParams.BaseSubsidy true)}}
-                                    <span class="pl-1 unit lh15rem">DCR</span>
+                                    <span class="pl-1 unit lh15rem">DCRN</span>
                                 </td>
                                 <td>Starting subsidy amount for mined blocks</td>
                             </tr>
@@ -165,7 +165,7 @@
                         <tbody>
                             <tr>
                                 <td class="mono text-left pr-2 nowrap p03rem0">MinimumStakeDiff</td>
-                                <td class="mono">{{template "decimalParts" (amountAsDecimalParts .ChainParams.MinimumStakeDiff true)}} DCR</td>
+                                <td class="mono">{{template "decimalParts" (amountAsDecimalParts .ChainParams.MinimumStakeDiff true)}} DCRN</td>
                                 <td>Minimum amount of Atoms required to purchase a stake ticket</td>
                             </tr>
                             <tr>
@@ -176,7 +176,7 @@
                             <tr>
                                 <td class="mono text-left pr-2 nowrap p03rem0">TicketsPerBlock</td>
                                 <td class="mono">{{.ChainParams.TicketsPerBlock}}</td>
-                                <td>Average number of tickets per block for Decred PoS</td>
+                                <td>Average number of tickets per block for Decred-Next PoS</td>
                             </tr>
                             <tr>
                                 <td class="mono text-left pr-2 nowrap p03rem0">TicketMaturity</td>

@@ -20,4 +20,8 @@ require (
 	github.com/dustin/go-humanize v1.0.0
 )
 
-replace github.com/decred/dcrdata/explorer/types/v2 => ../explorer/types
+replace (
+	github.com/decred/dcrd/blockchain/stake/v2 v2.0.2 => ../dcrnd/blockchain/stake
+	github.com/decred/dcrd/blockchain/standalone v1.1.0 => ../dcrnd/blockchain/standalone
+	github.com/decred/dcrdata/explorer/types/v2 => ../explorer/types
+)

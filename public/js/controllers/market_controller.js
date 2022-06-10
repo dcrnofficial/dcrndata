@@ -821,7 +821,7 @@ export default class extends Controller {
       }),
       labels: ['time', 'volume'],
       xlabel: 'Time',
-      ylabel: `Volume (DCR / ${prettyDurations[settings.bin]})`,
+      ylabel: `Volume (DCRN / ${prettyDurations[settings.bin]})`,
       colors: [chartStroke],
       plotter: Dygraph.Plotters.linePlotter,
       axes: {
@@ -848,7 +848,7 @@ export default class extends Controller {
       fillGraph: true,
       colors: ['#ed6d47', '#41be53'],
       xlabel: `Price (${this.converted ? fiatCode : 'BTC'})`,
-      ylabel: 'Volume (DCR)',
+      ylabel: 'Volume (DCRN)',
       tokens: null,
       stats: data.stats,
       plotter: depthPlotter, // Don't use Dygraph.linePlotter here. fillGraph won't work.
@@ -886,7 +886,7 @@ export default class extends Controller {
       file: data.pts,
       colors: colors,
       xlabel: `Price (${this.converted ? fiatCode : 'BTC'})`,
-      ylabel: 'Volume (DCR)',
+      ylabel: 'Volume (DCRN)',
       plotter: depthPlotter,
       fillGraph: aggStacking,
       stackedGraph: aggStacking,
@@ -913,7 +913,7 @@ export default class extends Controller {
       file: data.pts,
       colors: ['#f93f39cc', '#1acc84cc'],
       xlabel: `Price (${this.converted ? fiatCode : 'BTC'})`,
-      ylabel: 'Volume (DCR)',
+      ylabel: 'Volume (DCRN)',
       plotter: orderPlotter,
       axes: {
         x: {

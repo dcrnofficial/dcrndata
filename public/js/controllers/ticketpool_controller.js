@@ -228,7 +228,7 @@ export default class extends Controller {
       colors: ['#FF8C00', '#006600', '#2971FF', '#ff0090'],
       title: 'Tickets Purchase Distribution',
       ylabel: 'Number of Tickets',
-      y2label: 'A.v.g. Tickets Value (DCR)',
+      y2label: 'A.v.g. Tickets Value (DCRN',
       dateWindow: getWindow('day'),
       series: {
         'Ticket Value': {
@@ -251,7 +251,7 @@ export default class extends Controller {
       colors: ['#FF8C00', '#006600', '#2971FF'],
       title: 'Ticket Price Distribution',
       labelsKMB: true,
-      xlabel: 'Ticket Price (DCR)',
+      xlabel: 'Ticket Price (DCRN)',
       ylabel: 'Number of Tickets'
     }
     return new Dygraph(

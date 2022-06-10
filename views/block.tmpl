@@ -1,7 +1,7 @@
 {{define "block" -}}
 <!DOCTYPE html>
 <html lang="en">
-{{template "html-head" printf "Decred Block %d" .Data.Height}}
+{{template "html-head" printf "Decred-Next Block %d" .Data.Height}}
 {{ template "navbar" . }}
 
 <div class="container main" data-controller="time">
@@ -60,7 +60,7 @@
 					<span class="text-secondary fs13">Total Sent</span>
 					<br>
 					<span class="lh1rem d-inline-block pt-1"
-						><span class="fs18 fs14-decimal font-weight-bold">{{template "decimalParts" (float64AsDecimalParts .TotalSent 8 true 2)}}</span><span class="text-secondary fs14"> DCR</span>
+						><span class="fs18 fs14-decimal font-weight-bold">{{template "decimalParts" (float64AsDecimalParts .TotalSent 8 true 2)}}</span><span class="text-secondary fs14"> DCRN</span>
 					</span>
 					{{if $.FiatConversion}}
 					<br>
@@ -71,7 +71,7 @@
 					{{end}}
 					<br>
 					<span class="lh1rem d-inline-block pt-1"
-						><span class="fs14 fs14-decimal">Mixed: {{template "decimalParts" (amountAsDecimalParts .TotalMixed true)}}</span><span class="text-secondary fs14"> DCR</span>
+						><span class="fs14 fs14-decimal">Mixed: {{template "decimalParts" (amountAsDecimalParts .TotalMixed true)}}</span><span class="text-secondary fs14"> DCRN</span>
 					</span>
 				</div>
 				<div class="col-7 col-sm-8 text-left">
@@ -163,7 +163,7 @@
 			<thead>
 				<tr>
 					<th>Transaction ID</th>
-					<th class="text-right">Total DCR</th>
+					<th class="text-right">Total DCRN</th>
 					<th class="text-right">Size</th>
 				</tr>
 			</thead>
@@ -206,7 +206,7 @@
 					<th>Transactions ID</th>
 					<th class="text-right">Vote Version</th>
 					<th class="text-right">Last Block</th>
-					<th class="text-right">Total DCR</th>
+					<th class="text-right">Total DCRN</th>
 					<th class="text-right">Size</th>
 				</tr>
 			</thead>
@@ -262,7 +262,7 @@
 			<thead>
 				<tr>
 					<th>Transaction ID</th>
-					<th class="text-right">Total DCR</th>
+					<th class="text-right">Total DCRN</th>
 					<th class="text-right">Fee</th>
 					<th class="text-right">Size</th>
 				</tr>
@@ -290,7 +290,7 @@
 			<thead>
 				<tr>
 					<th>Transaction ID</th>
-					<th class="text-right">Total DCR</th>
+					<th class="text-right">Total DCRN</th>
 					<th class="text-right">Fee</th>
 					<th class="text-right">Size</th>
 				</tr>
@@ -324,7 +324,7 @@
 			<thead>
 				<tr>
 					<th>Transaction ID</th>
-					<th class="text-right">Total DCR</th>
+					<th class="text-right">Total DCRN</th>
 					<th class="text-right">Mixed</th>
 					<th class="text-right">Fee</th>
 					<th class="text-right">Size</th>

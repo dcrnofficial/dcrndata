@@ -1,4 +1,4 @@
-// Copyright (c) 2018, The Decred developers
+// Copyright (c) 2018, The Decred-Next developers
 // Copyright (c) 2017, Jonathan Chappelow
 // See LICENSE for details.
 
@@ -116,8 +116,10 @@ func (p *ChainMonitor) switchToSideChain(reorgData *txhelpers.ReorgData) (int32,
 
 	mainTip = int64(p.db.Height())
 	if mainTip != commonAncestorHeight {
-		panic(fmt.Sprintf("disconnect blocks failed: tip height %d, expected %d",
-			mainTip, commonAncestorHeight))
+		// panic(fmt.Sprintf("disconnect blocks failed: tip height %d, expected %d",
+		// 	mainTip, commonAncestorHeight))
+		return 0, nil, fmt.Errorf("disconnect blocks failed: tip height %d, expected %d",
+			mainTip, commonAncestorHeight)
 	}
 
 	// Connect blocks in side/new chain onto main chain.
@@ -171,7 +173,9 @@ func (p *ChainMonitor) ReorgHandler(reorg *txhelpers.ReorgData) error {
 		log.Errorf("stakeDBTipHeight is %d, expected %d",
 			stakeDBTipHeight, newHeight)
 	}
-	if *stakeDBTipHash != newHash {
+	if stakeDBTipHash == nil {
+		log.Errorf("stakeDBTipHash is nil, expected %d", newHash)
+	} else if *stakeDBTipHash != newHash {
 		log.Errorf("stakeDBTipHash is %d, expected %d",
 			stakeDBTipHash, newHash)
 	}

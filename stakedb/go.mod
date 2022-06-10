@@ -24,3 +24,7 @@ require (
 	go.etcd.io/bbolt v1.3.3 // indirect
 	google.golang.org/appengine v1.6.1 // indirect
 )
+replace (
+	github.com/decred/dcrd/wire v1.3.0 => ../../dcrnd/wire
+	github.com/decred/dcrd/blockchain/stake/v2 v2.0.2 => ../blockchain/stake
+)

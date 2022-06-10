@@ -1,4 +1,4 @@
-// Copyright (c) 2018-2020, The Decred developers
+// Copyright (c) 2018-2020, The Decred-Next developers
 // Copyright (c) 2017, The dcrdata developers
 // See LICENSE for details.
 
@@ -374,7 +374,7 @@ func (c *appContext) coinSupply(w http.ResponseWriter, r *http.Request) {
 
 func (c *appContext) coinSupplyCirculating(w http.ResponseWriter, r *http.Request) {
 	var dcr bool
-	if dcrParam := r.URL.Query().Get("dcr"); dcrParam != "" {
+	if dcrParam := r.URL.Query().Get("dcrn"); dcrParam != "" {
 		var err error
 		dcr, err = strconv.ParseBool(dcrParam)
 		if err != nil {

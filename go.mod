@@ -42,6 +42,7 @@ require (
 	github.com/konsorten/go-windows-terminal-sequences v1.0.2 // indirect
 	github.com/mattn/go-colorable v0.1.1 // indirect
 	github.com/mgutz/ansi v0.0.0-20170206155736-9520e82c474b // indirect
+	github.com/prometheus/client_golang v1.1.0
 	github.com/rs/cors v1.7.0
 	github.com/shiena/ansicolor v0.0.0-20151119151921-a422bbe96644
 	github.com/sirupsen/logrus v1.3.0
@@ -65,7 +66,15 @@ replace (
 	github.com/decred/dcrdata/pubsub/v4 => ./pubsub
 	github.com/decred/dcrdata/rpcutils/v3 => ./rpcutils
 	github.com/decred/dcrdata/semver => ./semver
-	github.com/decred/dcrdata/stakedb/v3 => ./stakedb
+	github.com/decred/dcrdata/stakedb/v3 v3.1.1 => ./stakedb
 	github.com/decred/dcrdata/testutil/dbconfig/v2 => ./testutil/dbconfig
 	github.com/decred/dcrdata/txhelpers/v4 => ./txhelpers
+)
+
+replace (
+	github.com/decred/dcrd/blockchain/stake/v2 v2.0.2 => ./blockchain/stake
+	github.com/decred/dcrd/blockchain/standalone v1.1.0 => ../dcrnd/blockchain/standalone
+	github.com/decred/dcrd/chaincfg/v2 v2.3.0 => ../dcrnd/chaincfg
+	github.com/decred/dcrd/dcrutil/v2 v2.0.1 => ../dcrnd/dcrutil
+	github.com/decred/dcrd/wire v1.3.0 => ../dcrnd/wire
 )

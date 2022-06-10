@@ -1,4 +1,4 @@
-// Copyright (c) 2019, The Decred developers
+// Copyright (c) 2019, The Decred-Next developers
 // See LICENSE for details.
 
 // Package politeia manages Politeia proposals and the voting that is

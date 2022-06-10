@@ -1,4 +1,4 @@
-// Copyright (c) 2018-2019, The Decred developers
+// Copyright (c) 2018-2019, The Decred-Next developers
 // Copyright (c) 2017, The dcrdata developers
 // See LICENSE for details.
 
@@ -143,14 +143,14 @@ type links struct {
 }
 
 var explorerLinks = &links{
-	CoinbaseComment: "https://github.com/decred/dcrd/blob/2a18beb4d56fe59d614a7309308d84891a0cba96/chaincfg/genesis.go#L17-L53",
-	POSExplanation:  "https://docs.decred.org/proof-of-stake/overview/",
-	APIDocs:         "https://github.com/decred/dcrdata#apis",
-	InsightAPIDocs:  "https://github.com/decred/dcrdata/blob/master/api/Insight_API_documentation.md",
-	Github:          "https://github.com/decred/dcrdata",
-	License:         "https://github.com/decred/dcrdata/blob/master/LICENSE",
-	NetParams:       "https://github.com/decred/dcrd/blob/master/chaincfg/params.go",
-	DownloadLink:    "https://decred.org/downloads/",
+	CoinbaseComment: "https://github.com/Decred-Next/dcrnd/blob/master/chaincfg/mainnetparams.go#L36-L72",
+	POSExplanation:  "https://dcrn.xyz/proof-of-stake/overview/",
+	APIDocs:         "https://github.com/Decred-Next/dcrndata#apis",
+	InsightAPIDocs:  "https://github.com/Decred-Next/dcrndata/blob/master/api/Insight_API_documentation.md",
+	Github:          "https://github.com/Decred-Next/dcrndata",
+	License:         "https://github.com/Decred-Next/dcrndata/blob/master/LICENSE",
+	NetParams:       "https://github.com/Decred-Next/dcrnd/blob/master/chaincfg/params.go",
+	DownloadLink:    "https://dcrn.xyz/wallet",
 }
 
 // TicketStatusText generates the text to display on the explorer's transaction

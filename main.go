@@ -1,4 +1,4 @@
-// Copyright (c) 2018-2019, The Decred developers
+// Copyright (c) 2018-2019, The Decred-Next developers
 // Copyright (c) 2017, Jonathan Chappelow
 // See LICENSE for details.
 
@@ -22,6 +22,7 @@ import (
 
 	"github.com/decred/dcrd/chaincfg/chainhash"
 	"github.com/decred/dcrd/rpcclient/v5"
+	"github.com/prometheus/client_golang/prometheus/promhttp"
 
 	"github.com/decred/dcrdata/blockdata/v5"
 	"github.com/decred/dcrdata/db/cache/v3"
@@ -780,7 +781,7 @@ func _main(ctx context.Context) error {
 		r.With(explorer.MenuFormParser).Post("/set", explore.Home)
 		r.Get("/attack-cost", explore.AttackCost)
 	})
-
+	webMux.Handle("/metrics", promhttp.Handler())
 	// Configure a page for the bare "/insight" path. This mounts the static
 	// assets under /insight (e.g. /insight/js) to support the page's complete
 	// loading when the root mounter is not accessible, such as the case in

@@ -19,4 +19,7 @@ require (
 	golang.org/x/net v0.0.0-20191028085509-fe3aa8a45271
 )
 
-replace github.com/decred/dcrdata/explorer/types/v2 => ../explorer/types
+replace (
+    github.com/decred/dcrdata/explorer/types/v2 => ../explorer/types
+    github.com/decred/dcrd/wire v1.3.0 => ../../dcrnd/wire
+)

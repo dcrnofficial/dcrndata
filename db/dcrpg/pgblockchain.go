@@ -1,4 +1,4 @@
-// Copyright (c) 2018-2020, The Decred developers
+// Copyright (c) 2018-2020, The Decred-Next developers
 // Copyright (c) 2017, The dcrdata developers
 // See LICENSE for details.
 
@@ -11,6 +11,7 @@ import (
 	"encoding/hex"
 	"errors"
 	"fmt"
+	"github.com/decred/dcrdata/blockdata/v5"
 	"math"
 	"runtime"
 	"sort"
@@ -29,7 +30,6 @@ import (
 	"github.com/decred/dcrd/rpcclient/v5"
 	"github.com/decred/dcrd/wire"
 	apitypes "github.com/decred/dcrdata/api/types/v5"
-	"github.com/decred/dcrdata/blockdata/v5"
 	"github.com/decred/dcrdata/db/cache/v3"
 	"github.com/decred/dcrdata/db/dbtypes/v2"
 	"github.com/decred/dcrdata/db/dcrpg/v5/internal"
@@ -3572,15 +3572,22 @@ func (pgb *ChainDB) StoreBlock(msgBlock *wire.MsgBlock, isValid, isMainchain,
 	if isMainchain {
 		var found bool
 		tpi, found = pgb.stakeDB.PoolInfo(msgBlock.BlockHash())
-		if !found {
-			err = fmt.Errorf("TicketPoolInfo not found for block %s", msgBlock.BlockHash().String())
-			return
+		// if !found {
+		// 	err = fmt.Errorf("TicketPoolInfo not found for block %s", msgBlock.BlockHash().String())
+		// 	return
+		// }
+		// if tpi.Height != msgBlock.Header.Height {
+		// 	err = fmt.Errorf("TicketPoolInfo height mismatch. expected %d. found %d", msgBlock.Header.Height, tpi.Height)
+		// 	return
+		// }
+		// winningTickets = tpi.Winners
+		if found {
+			if tpi.Height != msgBlock.Header.Height {
+				err = fmt.Errorf("TicketPoolInfo height mismatch. expected %d. found %d", msgBlock.Header.Height, tpi.Height)
+				return
+			}
+			winningTickets = tpi.Winners
 		}
-		if tpi.Height != msgBlock.Header.Height {
-			err = fmt.Errorf("TicketPoolInfo height mismatch. expected %d. found %d", msgBlock.Header.Height, tpi.Height)
-			return
-		}
-		winningTickets = tpi.Winners
 	}
 
 	// Convert the wire.MsgBlock to a dbtypes.Block.
@@ -3596,17 +3603,17 @@ func (pgb *ChainDB) StoreBlock(msgBlock *wire.MsgBlock, isValid, isMainchain,
 	// block, thus allowing the winning tickets to be known at that time.
 	// TODO: Somehow verify reorg operates as described when switching manually
 	// imported side chain blocks over to main chain.
-	prevBlockHash := msgBlock.Header.PrevBlock
+	//prevBlockHash := msgBlock.Header.PrevBlock
 
 	var winners []string
-	if isMainchain && !bytes.Equal(zeroHash[:], prevBlockHash[:]) {
-		lastTpi, found := pgb.stakeDB.PoolInfo(prevBlockHash)
-		if !found {
-			err = fmt.Errorf("stakedb.PoolInfo failed for block %s", msgBlock.BlockHash())
-			return
-		}
-		winners = lastTpi.Winners
-	}
+	//if isMainchain && !bytes.Equal(zeroHash[:], prevBlockHash[:]) {
+	//	lastTpi, found := pgb.stakeDB.PoolInfo(prevBlockHash)
+	//	if !found {
+	//		err = fmt.Errorf("stakedb.PoolInfo failed for block %s", msgBlock.BlockHash())
+	//		return
+	//	}
+	//	winners = lastTpi.Winners
+	//}
 
 	// Wrap the message block with newly winning tickets and the tickets
 	// expected to vote in this block (on the previous block).
@@ -3727,6 +3734,16 @@ func (pgb *ChainDB) StoreBlock(msgBlock *wire.MsgBlock, isValid, isMainchain,
 			err = InsertBlockStats(pgb.db, blockDbID, tpi)
 			if err != nil {
 				err = fmt.Errorf("InsertBlockStats: %v", err)
+				return
+			}
+		} else if blockDbID == 1 {
+			err = InsertBlockStats(pgb.db, blockDbID, &apitypes.TicketPoolInfo{
+				Height: 0,
+				Size:   0,
+				Value:  0,
+			})
+			if err != nil {
+				err = fmt.Errorf("blockId:1 InsertBlockStats: %v", err)
 				return
 			}
 		}
@@ -4822,7 +4839,7 @@ func (pgb *ChainDB) CurrentCoinSupply() (supply *apitypes.CoinSupply) {
 		Height:   height,
 		Hash:     hash,
 		Mined:    int64(coinSupply),
-		Ultimate: txhelpers.UltimateSubsidy(pgb.chainParams),
+		Ultimate: 2100000000000000, //Ultimate: txhelpers.UltimateSubsidy(pgb.chainParams),
 	}
 }
 

@@ -1,4 +1,4 @@
-// Copyright (c) 2019, The Decred developers
+// Copyright (c) 2019, The Decred-Next developers
 // See LICENSE for details.
 
 // Package cache provides a number of types and functions for caching Decred

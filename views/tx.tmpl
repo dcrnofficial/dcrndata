@@ -1,7 +1,7 @@
 {{define "tx"}}
 <!DOCTYPE html>
 <html lang="en">
-{{template "html-head" printf "Decred Transaction %.20s..." .Data.TxID}}
+{{template "html-head" printf "Decred-Next Transaction %.20s..." .Data.TxID}}
 {{template "navbar" . }}
 {{$conv := .Conversions}}
 {{with .Data}}
@@ -38,7 +38,7 @@
                 {{end}}
               </div>
               {{if gt .MixCount 0}}
-              <div class="d-inline-block mix-box mx-2 fs14">Mix: {{.MixCount}} outputs of {{template "decimalParts" (amountAsDecimalParts .MixDenom false)}} DCR
+              <div class="d-inline-block mix-box mx-2 fs14">Mix: {{.MixCount}} outputs of {{template "decimalParts" (amountAsDecimalParts .MixDenom false)}} DCRN
               </div>
               {{- end}}
           </div>
@@ -54,7 +54,7 @@
                 <span class="text-secondary fs13">Total Sent</span>
                 <br>
                 <span class="lh1rem d-inline-block pt-1"
-                  ><span class="fs18 fs14-decimal font-weight-bold">{{template "decimalParts" (float64AsDecimalParts .Total 8 true 2)}}</span><span class="text-secondary fs14">DCR</span>
+                  ><span class="fs18 fs14-decimal font-weight-bold">{{template "decimalParts" (float64AsDecimalParts .Total 8 true 2)}}</span><span class="text-secondary fs14">DCRN</span>
                 </span>
                 {{if $conv.Total}}
                 <br>
@@ -95,7 +95,7 @@
                 <span class="text-secondary fs13">Fee</span>
                 <br>
                 <span class="lh1rem d-inline-block pt-1"
-                  ><span class="fs18 fs14-decimal font-weight-bold">{{template "decimalParts" (float64AsDecimalParts .Fee.ToCoin 8 true 2)}}</span><span class="text-secondary fs14">DCR</span>
+                  ><span class="fs18 fs14-decimal font-weight-bold">{{template "decimalParts" (float64AsDecimalParts .Fee.ToCoin 8 true 2)}}</span><span class="text-secondary fs14">DCRN</span>
                 </span>
                 {{if $conv.Fees}}
                 <br>
@@ -294,7 +294,7 @@
                     <th class="text-nowrap">Previous Outpoint</th>
                     <th class="addr-hash-column">Addresses</th>
                     <th class="text-center shrink-to-fit">Block</th>
-                    <th class="text-right shrink-to-fit">DCR</th>
+                    <th class="text-right shrink-to-fit">DCRN</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -346,7 +346,7 @@
                     <th class="addr-hash-column"><div class="pl-1">Address</div></th>
                     <th class="text-left shrink-to-fit">Type</th>
                     <th class="text-left shrink-to-fit">Spent</th>
-                    <th class="text-right shrink-to-fit">DCR</th>
+                    <th class="text-right shrink-to-fit">DCRN</th>
                   </tr>
                 </thead>
                 <tbody>

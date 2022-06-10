@@ -1,4 +1,4 @@
-// Copyright (c) 2018-2020, The Decred developers
+// Copyright (c) 2018-2020, The Decred-Next developers
 // Copyright (c) 2017, The dcrdata developers
 // See LICENSE for details.
 
@@ -2615,11 +2615,12 @@ func RetrieveVoutsByIDs(ctx context.Context, db *sql.DB, voutDbIDs []uint64) ([]
 	for i, id := range voutDbIDs {
 		vout := &vouts[i]
 		var id0 uint64
+		var spendTxRowID sql.NullInt64 // discarded, but can be NULL
 		var reqSigs uint32
 		var scriptType, addresses string
 		err := db.QueryRowContext(ctx, internal.SelectVoutByID, id).Scan(&id0, &vout.TxHash,
 			&vout.TxIndex, &vout.TxTree, &vout.Value, &vout.Version,
-			&vout.ScriptPubKey, &reqSigs, &scriptType, &addresses)
+			&vout.ScriptPubKey, &reqSigs, &scriptType, &addresses, &vout.Mixed, &spendTxRowID)
 		if err != nil {
 			return nil, err
 		}

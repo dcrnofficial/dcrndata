@@ -14,3 +14,6 @@ require (
 	github.com/onsi/ginkgo v1.8.0 // indirect
 	github.com/onsi/gomega v1.5.0 // indirect
 )
+replace (
+	github.com/decred/dcrd/wire v1.3.0 => ../../../dcrnd/wire
+)

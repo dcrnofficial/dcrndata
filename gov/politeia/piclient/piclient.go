@@ -1,4 +1,4 @@
-// Copyright (c) 2019, The Decred developers
+// Copyright (c) 2019, The Decred-Next developers
 // See LICENSE for details.
 
 // Package piclient handles the http requests made to Politeia APIs.

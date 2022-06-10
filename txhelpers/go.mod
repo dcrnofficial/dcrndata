@@ -17,3 +17,10 @@ require (
 	github.com/decred/dcrdata/semver v1.0.0
 	github.com/decred/dcrwallet/wallet/v3 v3.1.1-0.20191230143837-6a86dc4676f0
 )
+
+replace (
+	github.com/decred/dcrd/blockchain/stake/v2 v2.0.2 => ../../dcrnd/blockchain/stake
+	github.com/decred/dcrd/blockchain/standalone v1.1.0 => ../../dcrnd/blockchain/standalone
+	github.com/decred/dcrd/chaincfg/v2 v2.3.0 => ../../dcrnd/chaincfg
+	github.com/decred/dcrd/wire v1.3.0 => ../../dcrnd/wire
+)
