@@ -12,6 +12,7 @@ import (
 	m "github.com/decred/dcrdata/middleware/v3"
 	"github.com/go-chi/chi"
 	"github.com/go-chi/chi/middleware"
+	"github.com/rs/cors"
 )
 
 // ApiMux contains the struct mux
@@ -22,11 +23,20 @@ type ApiMux struct {
 // APIVersion is an integer value, incremented for breaking changes
 const APIVersion = 0
 
+type loggerFunc func(string, ...interface{})
+
+func (lw loggerFunc) Printf(str string, args ...interface{}) {
+	lw(str, args...)
+}
+
 // NewInsightApiRouter returns a new HTTP path router, ApiMux, for the Insight
 // API, app.
 func NewInsightApiRouter(app *InsightApi, useRealIP, compression bool, maxAddrs int) ApiMux {
 	// chi router
 	mux := chi.NewRouter()
+	corsMW := cors.Default()
+	corsMW.Log = loggerFunc(apiLog.Tracef)
+	mux.Use(corsMW.Handler)
 
 	// Create a rate limiter struct.
 	limiter := m.NewLimiter(app.ReqPerSecLimit)
