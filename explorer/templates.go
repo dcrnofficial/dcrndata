@@ -18,7 +18,7 @@ import (
 	"github.com/Decred-Next/dcrnd/dcrec/v8"
 	"github.com/Decred-Next/dcrnd/dcrutil/v8"
 	"github.com/Decred-Next/dcrndata/db/dbtypes/v8"
-	"github.com/decred/dcrdata/explorer/types/v2"
+	"github.com/Decred-Next/dcrndata/explorer/types/v8"
 	humanize "github.com/dustin/go-humanize"
 )
 

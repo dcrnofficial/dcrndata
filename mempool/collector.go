@@ -18,7 +18,7 @@ import (
 	chainjson "github.com/Decred-Next/dcrnd/rpc/jsonrpc/types/version2/v8"
 	"github.com/Decred-Next/dcrnd/rpcclient/v8"
 	apitypes "github.com/Decred-Next/dcrndata/api/types/v8"
-	exptypes "github.com/decred/dcrdata/explorer/types/v2"
+	exptypes "github.com/Decred-Next/dcrndata/explorer/types/v8"
 	"github.com/Decred-Next/dcrndata/rpcutils/v8"
 	"github.com/Decred-Next/dcrndata/txhelpers/v8"
 	humanize "github.com/dustin/go-humanize"

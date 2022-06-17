@@ -27,7 +27,7 @@ import (
 	"github.com/Decred-Next/dcrndata/blockdata/v8"
 	"github.com/Decred-Next/dcrndata/db/dbtypes/v8"
 	"github.com/Decred-Next/dcrndata/exchanges/v8"
-	"github.com/decred/dcrdata/explorer/types/v2"
+	"github.com/Decred-Next/dcrndata/explorer/types/v8"
 	"github.com/Decred-Next/dcrndata/gov/v8/agendas"
 	pitypes "github.com/Decred-Next/dcrndata/gov/v8/politeia/types"
 	"github.com/Decred-Next/dcrndata/mempool/v8"

@@ -20,7 +20,7 @@ import (
 	"github.com/Decred-Next/dcrnd/wire/v8"
 	"github.com/Decred-Next/dcrndata/blockdata/v8"
 	"github.com/Decred-Next/dcrndata/db/dbtypes/v8"
-	exptypes "github.com/decred/dcrdata/explorer/types/v2"
+	exptypes "github.com/Decred-Next/dcrndata/explorer/types/v8"
 	"github.com/Decred-Next/dcrndata/mempool/v8"
 	pstypes "github.com/Decred-Next/dcrndata/pubsub/types/v8"
 	"github.com/Decred-Next/dcrndata/semver/v8"

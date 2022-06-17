@@ -7,7 +7,7 @@ import (
 
 	"github.com/Decred-Next/dcrnd/chaincfg/v8"
 	"github.com/Decred-Next/dcrndata/db/dcrpg/v8"
-	"github.com/decred/dcrdata/explorer/types/v2"
+	"github.com/Decred-Next/dcrndata/explorer/types/v8"
 )
 
 const (

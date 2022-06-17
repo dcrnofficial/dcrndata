@@ -33,7 +33,7 @@ import (
 	"github.com/Decred-Next/dcrndata/db/cache/v8"
 	"github.com/Decred-Next/dcrndata/db/dbtypes/v8"
 	"github.com/decred/dcrdata/db/dcrpg/v5/internal"
-	exptypes "github.com/decred/dcrdata/explorer/types/v2"
+	exptypes "github.com/Decred-Next/dcrndata/explorer/types/v8"
 	"github.com/Decred-Next/dcrndata/mempool/v8"
 	"github.com/Decred-Next/dcrndata/rpcutils/v8"
 	"github.com/Decred-Next/dcrndata/stakedb/v8"
