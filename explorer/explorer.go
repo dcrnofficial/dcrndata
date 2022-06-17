@@ -29,7 +29,7 @@ import (
 	"github.com/Decred-Next/dcrndata/exchanges/v8"
 	"github.com/decred/dcrdata/explorer/types/v2"
 	"github.com/Decred-Next/dcrndata/gov/v8/agendas"
-	pitypes "github.com/decred/dcrdata/gov/v3/politeia/types"
+	pitypes "github.com/Decred-Next/dcrndata/gov/v8/politeia/types"
 	"github.com/Decred-Next/dcrndata/mempool/v8"
 	pstypes "github.com/Decred-Next/dcrndata/pubsub/types/v8"
 	"github.com/Decred-Next/dcrndata/txhelpers/v8"

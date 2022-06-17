@@ -17,8 +17,8 @@ import (
 
 	"github.com/asdine/storm/v3"
 	"github.com/asdine/storm/v3/q"
-	"github.com/decred/dcrdata/gov/v3/politeia/piclient"
-	pitypes "github.com/decred/dcrdata/gov/v3/politeia/types"
+	"github.com/Decred-Next/dcrndata/gov/v8/politeia/piclient"
+	pitypes "github.com/Decred-Next/dcrndata/gov/v8/politeia/types"
 	"github.com/Decred-Next/dcrndata/semver/v8"
 	piapi "github.com/decred/politeia/politeiawww/api/www/v1"
 )

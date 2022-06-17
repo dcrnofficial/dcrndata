@@ -11,7 +11,7 @@ import (
 	"net/http"
 	"regexp"
 
-	pitypes "github.com/decred/dcrdata/gov/v3/politeia/types"
+	pitypes "github.com/Decred-Next/dcrndata/gov/v8/politeia/types"
 	piapi "github.com/decred/politeia/politeiawww/api/www/v1"
 )
 
