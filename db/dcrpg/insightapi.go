@@ -8,14 +8,14 @@ import (
 	"context"
 	"sort"
 
-	"github.com/decred/dcrd/chaincfg/chainhash"
-	"github.com/decred/dcrd/dcrutil/v2"
-	chainjson "github.com/decred/dcrd/rpc/jsonrpc/types/v2"
-	apitypes "github.com/decred/dcrdata/api/types/v5"
-	"github.com/decred/dcrdata/db/cache/v3"
-	"github.com/decred/dcrdata/db/dbtypes/v2"
-	"github.com/decred/dcrdata/rpcutils/v3"
-	"github.com/decred/dcrdata/txhelpers/v4"
+	"github.com/Decred-Next/dcrnd/chaincfg/chainhash/v8"
+	"github.com/Decred-Next/dcrnd/dcrutil/v8"
+	chainjson "github.com/Decred-Next/dcrnd/rpc/jsonrpc/types/version2/v8"
+	apitypes "github.com/Decred-Next/dcrndata/api/types/v8"
+	"github.com/Decred-Next/dcrndata/db/cache/v8"
+	"github.com/Decred-Next/dcrndata/db/dbtypes/v8"
+	"github.com/Decred-Next/dcrndata/rpcutils/v8"
+	"github.com/Decred-Next/dcrndata/txhelpers/v8"
 )
 
 // GetRawTransaction gets a chainjson.TxRawResult for the specified transaction

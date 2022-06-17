@@ -5,11 +5,11 @@
 package insight
 
 import (
-	"github.com/decred/dcrd/blockchain/standalone"
-	"github.com/decred/dcrd/dcrutil/v2"
-	chainjson "github.com/decred/dcrd/rpc/jsonrpc/types/v2"
-	apitypes "github.com/decred/dcrdata/api/types/v5"
-	"github.com/decred/dcrdata/txhelpers/v4"
+	"github.com/Decred-Next/dcrnd/blockchain/standalone/v8"
+	"github.com/Decred-Next/dcrnd/dcrutil/v8"
+	chainjson "github.com/Decred-Next/dcrnd/rpc/jsonrpc/types/version2/v8"
+	apitypes "github.com/Decred-Next/dcrndata/api/types/v8"
+	"github.com/Decred-Next/dcrndata/txhelpers/v8"
 )
 
 // TxConverter converts dcrd-tx to insight tx

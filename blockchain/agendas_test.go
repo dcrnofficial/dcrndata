@@ -8,12 +8,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/decred/dcrd/blockchain/stake/v2"
-	"github.com/decred/dcrd/blockchain/v2/chaingen"
-	"github.com/decred/dcrd/chaincfg/v2"
-	"github.com/decred/dcrd/dcrutil/v2"
-	"github.com/decred/dcrd/txscript/v2"
-	"github.com/decred/dcrd/wire"
+	"github.com/Decred-Next/dcrnd/blockchain/stake/v8"
+	"github.com/Decred-Next/dcrnd/blockchain/v8/chaingen"
+	"github.com/Decred-Next/dcrnd/chaincfg/v8"
+	"github.com/Decred-Next/dcrnd/dcrutil/v8"
+	"github.com/Decred-Next/dcrnd/txscript/version2/v8"
+	"github.com/Decred-Next/dcrnd/wire/v8"
 )
 
 // testLNFeaturesDeployment ensures the deployment of the LN features agenda

@@ -10,11 +10,11 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/decred/dcrd/chaincfg/chainhash"
-	"github.com/decred/dcrd/wire"
+	"github.com/Decred-Next/dcrnd/chaincfg/chainhash/v8"
+	"github.com/Decred-Next/dcrnd/wire/v8"
 	"github.com/decred/dcrdata/db/dcrpg/v5/internal"
-	"github.com/decred/dcrdata/stakedb/v3"
-	"github.com/decred/dcrdata/txhelpers/v4"
+	"github.com/Decred-Next/dcrndata/stakedb/v8"
+	"github.com/Decred-Next/dcrndata/txhelpers/v8"
 	"github.com/decred/dcrwallet/wallet/v3/txrules"
 	"github.com/lib/pq"
 )

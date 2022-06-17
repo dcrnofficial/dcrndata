@@ -8,8 +8,8 @@ package blockchain
 import (
 	"fmt"
 
-	"github.com/decred/dcrd/chaincfg/chainhash"
-	"github.com/decred/dcrd/chaincfg/v2"
+	"github.com/Decred-Next/dcrnd/chaincfg/chainhash/v8"
+	"github.com/Decred-Next/dcrnd/chaincfg/v8"
 )
 
 // ThresholdState define the various threshold states used when voting on

@@ -10,12 +10,12 @@ import (
 	"os"
 	"time"
 
-	"github.com/decred/dcrd/chaincfg/v2"
-	"github.com/decred/dcrd/dcrutil/v2"
+	"github.com/Decred-Next/dcrnd/chaincfg/v8"
+	"github.com/Decred-Next/dcrnd/dcrutil/v8"
 	exptypes "github.com/decred/dcrdata/explorer/types/v2"
-	pstypes "github.com/decred/dcrdata/pubsub/types/v3"
+	pstypes "github.com/Decred-Next/dcrndata/pubsub/types/v8"
 	"github.com/decred/dcrdata/pubsub/v4/psclient"
-	"github.com/decred/dcrdata/semver"
+	"github.com/Decred-Next/dcrndata/semver/v8"
 	"github.com/decred/slog"
 	survey "gopkg.in/AlecAivazis/survey.v1"
 )

@@ -11,12 +11,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/decred/dcrd/chaincfg/v2"
-	"github.com/decred/dcrd/dcrutil/v2"
-	chainjson "github.com/decred/dcrd/rpc/jsonrpc/types/v2"
-	"github.com/decred/dcrd/wire"
-	"github.com/decred/dcrdata/exchanges/v2"
-	"github.com/decred/dcrdata/txhelpers/v4"
+	"github.com/Decred-Next/dcrnd/chaincfg/v8"
+	"github.com/Decred-Next/dcrnd/dcrutil/v8"
+	chainjson "github.com/Decred-Next/dcrnd/rpc/jsonrpc/types/version2/v8"
+	"github.com/Decred-Next/dcrnd/wire/v8"
+	"github.com/Decred-Next/dcrndata/exchanges/v8"
+	"github.com/Decred-Next/dcrndata/txhelpers/v8"
 	humanize "github.com/dustin/go-humanize"
 )
 

@@ -8,7 +8,7 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/decred/dcrd/wire"
+	"github.com/Decred-Next/dcrnd/wire/v8"
 )
 
 // TestIsCoinbaseTx ensures the coinbase identification works as intended.

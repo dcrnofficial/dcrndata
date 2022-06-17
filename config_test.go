@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/decred/dcrd/dcrutil/v2"
+	"github.com/Decred-Next/dcrnd/dcrutil/v8"
 )
 
 var tempConfigFile *os.File

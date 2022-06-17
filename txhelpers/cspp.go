@@ -1,8 +1,8 @@
 package txhelpers
 
 import (
-	"github.com/decred/dcrd/dcrutil/v2"
-	"github.com/decred/dcrd/wire"
+	"github.com/Decred-Next/dcrnd/dcrutil/v8"
+	"github.com/Decred-Next/dcrnd/wire/v8"
 	"github.com/decred/dcrwallet/wallet/v3/txrules"
 	"github.com/decred/dcrwallet/wallet/v3/txsizes"
 )

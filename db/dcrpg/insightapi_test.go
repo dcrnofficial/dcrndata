@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/decred/dcrd/chaincfg/chainhash"
+	"github.com/Decred-Next/dcrnd/chaincfg/chainhash/v8"
 )
 
 func Test_sortTxsByTimeAndHash(t *testing.T) {

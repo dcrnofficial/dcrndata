@@ -11,14 +11,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/decred/dcrd/blockchain/stake/v2"
-	"github.com/decred/dcrd/chaincfg/chainhash"
-	"github.com/decred/dcrd/wire"
-	"github.com/decred/dcrdata/db/dbtypes/v2"
+	"github.com/Decred-Next/dcrnd/blockchain/stake/v8"
+	"github.com/Decred-Next/dcrnd/chaincfg/chainhash/v8"
+	"github.com/Decred-Next/dcrnd/wire/v8"
+	"github.com/Decred-Next/dcrndata/db/dbtypes/v8"
 	"github.com/decred/dcrdata/db/dcrpg/v5/internal"
-	"github.com/decred/dcrdata/rpcutils/v3"
-	"github.com/decred/dcrdata/semver"
-	"github.com/decred/dcrdata/txhelpers/v4"
+	"github.com/Decred-Next/dcrndata/rpcutils/v8"
+	"github.com/Decred-Next/dcrndata/semver/v8"
+	"github.com/Decred-Next/dcrndata/txhelpers/v8"
 )
 
 // The tables are versioned as follows. The major version is the same for all

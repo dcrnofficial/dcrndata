@@ -8,7 +8,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/decred/dcrd/chaincfg/chainhash"
+	"github.com/Decred-Next/dcrnd/chaincfg/chainhash/v8"
 )
 
 // TestHashToBig ensures HashToBig properly converts a hash treated as a little

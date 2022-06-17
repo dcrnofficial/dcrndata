@@ -17,15 +17,15 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/decred/dcrd/chaincfg/chainhash"
-	"github.com/decred/dcrd/chaincfg/v2"
-	"github.com/decred/dcrd/dcrutil/v2"
-	chainjson "github.com/decred/dcrd/rpc/jsonrpc/types/v2"
-	"github.com/decred/dcrd/rpcclient/v5"
-	apitypes "github.com/decred/dcrdata/api/types/v5"
-	"github.com/decred/dcrdata/db/dbtypes/v2"
-	m "github.com/decred/dcrdata/middleware/v3"
-	"github.com/decred/dcrdata/rpcutils/v3"
+	"github.com/Decred-Next/dcrnd/chaincfg/chainhash/v8"
+	"github.com/Decred-Next/dcrnd/chaincfg/v8"
+	"github.com/Decred-Next/dcrnd/dcrutil/v8"
+	chainjson "github.com/Decred-Next/dcrnd/rpc/jsonrpc/types/version2/v8"
+	"github.com/Decred-Next/dcrnd/rpcclient/v8"
+	apitypes "github.com/Decred-Next/dcrndata/api/types/v8"
+	"github.com/Decred-Next/dcrndata/db/dbtypes/v8"
+	m "github.com/Decred-Next/dcrndata/middleware/v8"
+	"github.com/Decred-Next/dcrndata/rpcutils/v8"
 )
 
 type BlockDataSource interface {

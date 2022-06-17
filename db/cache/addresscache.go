@@ -14,8 +14,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/decred/dcrd/chaincfg/chainhash"
-	"github.com/decred/dcrdata/db/dbtypes/v2"
+	"github.com/Decred-Next/dcrnd/chaincfg/chainhash/v8"
+	"github.com/Decred-Next/dcrndata/db/dbtypes/v8"
 )
 
 const (

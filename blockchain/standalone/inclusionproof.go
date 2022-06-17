@@ -5,7 +5,7 @@
 package standalone
 
 import (
-	"github.com/decred/dcrd/chaincfg/chainhash"
+	"github.com/Decred-Next/dcrnd/chaincfg/chainhash/v8"
 )
 
 // log2FloorMasks defines the masks to use when quickly calculating

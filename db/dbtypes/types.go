@@ -13,10 +13,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/decred/dcrd/chaincfg/chainhash"
-	"github.com/decred/dcrd/dcrutil/v2"
+	"github.com/Decred-Next/dcrnd/chaincfg/chainhash/v8"
+	"github.com/Decred-Next/dcrnd/dcrutil/v8"
 	"github.com/decred/dcrdata/db/dbtypes/v2/internal"
-	"github.com/decred/dcrdata/txhelpers/v4"
+	"github.com/Decred-Next/dcrndata/txhelpers/v8"
 )
 
 var (

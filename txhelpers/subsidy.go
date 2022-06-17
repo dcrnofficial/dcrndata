@@ -8,8 +8,8 @@ package txhelpers
 import (
 	"sync"
 
-	"github.com/decred/dcrd/blockchain/standalone"
-	"github.com/decred/dcrd/chaincfg/v2"
+	"github.com/Decred-Next/dcrnd/blockchain/standalone/v8"
+	"github.com/Decred-Next/dcrnd/chaincfg/v8"
 )
 
 // ultimateSubsidies stores ultimate subsidy values computed by UltimateSubsidy.

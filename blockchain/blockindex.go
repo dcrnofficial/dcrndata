@@ -12,11 +12,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/decred/dcrd/blockchain/stake/v2"
-	"github.com/decred/dcrd/blockchain/standalone"
-	"github.com/decred/dcrd/chaincfg/chainhash"
-	"github.com/decred/dcrd/database/v2"
-	"github.com/decred/dcrd/wire"
+	"github.com/Decred-Next/dcrnd/blockchain/stake/v8"
+	"github.com/Decred-Next/dcrnd/blockchain/standalone/v8"
+	"github.com/Decred-Next/dcrnd/chaincfg/chainhash/v8"
+	"github.com/Decred-Next/dcrnd/database/v8"
+	"github.com/Decred-Next/dcrnd/wire/v8"
 )
 
 // blockStatus is a bit field representing the validation state of the block.

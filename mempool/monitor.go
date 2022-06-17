@@ -11,14 +11,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/decred/dcrd/blockchain/stake/v2"
-	"github.com/decred/dcrd/blockchain/standalone"
-	"github.com/decred/dcrd/chaincfg/chainhash"
-	"github.com/decred/dcrd/chaincfg/v2"
-	chainjson "github.com/decred/dcrd/rpc/jsonrpc/types/v2"
+	"github.com/Decred-Next/dcrnd/blockchain/stake/v8"
+	"github.com/Decred-Next/dcrnd/blockchain/standalone/v8"
+	"github.com/Decred-Next/dcrnd/chaincfg/chainhash/v8"
+	"github.com/Decred-Next/dcrnd/chaincfg/v8"
+	chainjson "github.com/Decred-Next/dcrnd/rpc/jsonrpc/types/version2/v8"
 	exptypes "github.com/decred/dcrdata/explorer/types/v2"
-	pstypes "github.com/decred/dcrdata/pubsub/types/v3"
-	"github.com/decred/dcrdata/txhelpers/v4"
+	pstypes "github.com/Decred-Next/dcrndata/pubsub/types/v8"
+	"github.com/Decred-Next/dcrndata/txhelpers/v8"
 	humanize "github.com/dustin/go-humanize"
 )
 

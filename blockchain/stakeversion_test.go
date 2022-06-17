@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/decred/dcrd/chaincfg/chainhash"
-	"github.com/decred/dcrd/chaincfg/v2"
+	"github.com/Decred-Next/dcrnd/chaincfg/chainhash/v8"
+	"github.com/Decred-Next/dcrnd/chaincfg/v8"
 )
 
 // isVoterMajorityVersion determines if minVer requirement is met based on

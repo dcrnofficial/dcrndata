@@ -12,15 +12,15 @@ import (
 	"io/ioutil"
 	"strconv"
 
-	"github.com/decred/dcrd/chaincfg/chainhash"
-	"github.com/decred/dcrd/chaincfg/v2"
-	"github.com/decred/dcrd/dcrutil/v2"
-	chainjson "github.com/decred/dcrd/rpc/jsonrpc/types/v2"
-	"github.com/decred/dcrd/rpcclient/v5"
-	"github.com/decred/dcrd/wire"
-	apitypes "github.com/decred/dcrdata/api/types/v5"
-	"github.com/decred/dcrdata/semver"
-	"github.com/decred/dcrdata/txhelpers/v4"
+	"github.com/Decred-Next/dcrnd/chaincfg/chainhash/v8"
+	"github.com/Decred-Next/dcrnd/chaincfg/v8"
+	"github.com/Decred-Next/dcrnd/dcrutil/v8"
+	chainjson "github.com/Decred-Next/dcrnd/rpc/jsonrpc/types/version2/v8"
+	"github.com/Decred-Next/dcrnd/rpcclient/v8"
+	"github.com/Decred-Next/dcrnd/wire/v8"
+	apitypes "github.com/Decred-Next/dcrndata/api/types/v8"
+	"github.com/Decred-Next/dcrndata/semver/v8"
+	"github.com/Decred-Next/dcrndata/txhelpers/v8"
 )
 
 // Any of the following dcrd RPC API versions are deemed compatible with

@@ -5,8 +5,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/decred/dcrd/chaincfg/v2"
-	"github.com/decred/dcrdata/db/dcrpg/v5"
+	"github.com/Decred-Next/dcrnd/chaincfg/v8"
+	"github.com/Decred-Next/dcrndata/db/dcrpg/v8"
 	"github.com/decred/dcrdata/explorer/types/v2"
 )
 

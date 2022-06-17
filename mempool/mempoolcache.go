@@ -8,10 +8,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/decred/dcrd/dcrutil/v2"
-	chainjson "github.com/decred/dcrd/rpc/jsonrpc/types/v2"
-	apitypes "github.com/decred/dcrdata/api/types/v5"
-	"github.com/decred/dcrdata/db/dbtypes/v2"
+	"github.com/Decred-Next/dcrnd/dcrutil/v8"
+	chainjson "github.com/Decred-Next/dcrnd/rpc/jsonrpc/types/version2/v8"
+	apitypes "github.com/Decred-Next/dcrndata/api/types/v8"
+	"github.com/Decred-Next/dcrndata/db/dbtypes/v8"
 	exptypes "github.com/decred/dcrdata/explorer/types/v2"
 )
 

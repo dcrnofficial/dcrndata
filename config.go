@@ -19,12 +19,12 @@ import (
 	"time"
 
 	"github.com/caarlos0/env"
-	"github.com/decred/dcrd/chaincfg/v2"
-	"github.com/decred/dcrd/dcrutil/v2"
-	"github.com/decred/dcrd/wire"
-	"github.com/decred/dcrdata/db/dbtypes/v2"
-	"github.com/decred/dcrdata/v5/netparams"
-	"github.com/decred/dcrdata/v5/version"
+	"github.com/Decred-Next/dcrnd/chaincfg/v8"
+	"github.com/Decred-Next/dcrnd/dcrutil/v8"
+	"github.com/Decred-Next/dcrnd/wire/v8"
+	"github.com/Decred-Next/dcrndata/db/dbtypes/v8"
+	"github.com/Decred-Next/dcrndata/v8/netparams"
+	"github.com/Decred-Next/dcrndata/v8/version"
 	"github.com/decred/slog"
 	flags "github.com/jessevdk/go-flags"
 )

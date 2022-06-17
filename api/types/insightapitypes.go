@@ -7,8 +7,8 @@ package types
 import (
 	"encoding/json"
 
-	"github.com/decred/dcrd/dcrutil/v2"
-	"github.com/decred/dcrdata/db/dbtypes/v2"
+	"github.com/Decred-Next/dcrnd/dcrutil/v8"
+	"github.com/Decred-Next/dcrndata/db/dbtypes/v8"
 )
 
 // SyncResponse contains sync status information.

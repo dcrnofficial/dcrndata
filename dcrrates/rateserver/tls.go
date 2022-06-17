@@ -14,7 +14,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/decred/dcrd/certgen"
+	"github.com/Decred-Next/dcrnd/certgen/v8"
 	credentials "google.golang.org/grpc/credentials"
 )
 

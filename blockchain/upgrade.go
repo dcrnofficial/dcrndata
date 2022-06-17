@@ -12,16 +12,16 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/decred/dcrd/blockchain/stake/v2"
-	"github.com/decred/dcrd/blockchain/standalone"
-	"github.com/decred/dcrd/blockchain/v2/internal/progresslog"
-	"github.com/decred/dcrd/chaincfg/chainhash"
-	"github.com/decred/dcrd/chaincfg/v2"
-	"github.com/decred/dcrd/database/v2"
-	"github.com/decred/dcrd/dcrutil/v2"
-	"github.com/decred/dcrd/gcs/v2"
-	"github.com/decred/dcrd/gcs/v2/blockcf2"
-	"github.com/decred/dcrd/wire"
+	"github.com/Decred-Next/dcrnd/blockchain/stake/v8"
+	"github.com/Decred-Next/dcrnd/blockchain/standalone/v8"
+	"github.com/Decred-Next/dcrnd/blockchain/v8/internal/progresslog"
+	"github.com/Decred-Next/dcrnd/chaincfg/chainhash/v8"
+	"github.com/Decred-Next/dcrnd/chaincfg/v8"
+	"github.com/Decred-Next/dcrnd/database/v8"
+	"github.com/Decred-Next/dcrnd/dcrutil/v8"
+	"github.com/Decred-Next/dcrnd/gcs/version2/v8"
+	"github.com/Decred-Next/dcrnd/gcs/version2/v8/blockcf2"
+	"github.com/Decred-Next/dcrnd/wire/v8"
 )
 
 // errInterruptRequested indicates that an operation was cancelled due

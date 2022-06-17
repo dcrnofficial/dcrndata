@@ -11,8 +11,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/decred/dcrd/chaincfg/chainhash"
-	"github.com/decred/dcrd/rpcclient/v5"
+	"github.com/Decred-Next/dcrnd/chaincfg/chainhash/v8"
+	"github.com/Decred-Next/dcrnd/rpcclient/v8"
 	"github.com/decred/slog"
 )
 

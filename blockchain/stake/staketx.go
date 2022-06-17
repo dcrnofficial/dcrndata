@@ -15,11 +15,11 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/decred/dcrd/chaincfg/chainhash"
-	"github.com/decred/dcrd/dcrec"
-	"github.com/decred/dcrd/dcrutil/v2"
-	"github.com/decred/dcrd/txscript/v2"
-	"github.com/decred/dcrd/wire"
+	"github.com/Decred-Next/dcrnd/chaincfg/chainhash/v8"
+	"github.com/Decred-Next/dcrnd/dcrec/v8"
+	"github.com/Decred-Next/dcrnd/dcrutil/v8"
+	"github.com/Decred-Next/dcrnd/txscript/version2/v8"
+	"github.com/Decred-Next/dcrnd/wire/v8"
 )
 
 // TxType indicates the type of tx (regular or stake type).

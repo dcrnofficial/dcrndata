@@ -1,3 +1,3 @@
-module github.com/decred/dcrdata/semver
+module github.com/Decred-Next/dcrndata/semver
 
 go 1.12

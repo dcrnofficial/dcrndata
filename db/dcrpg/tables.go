@@ -8,7 +8,7 @@ import (
 	"database/sql"
 	"fmt"
 
-	"github.com/decred/dcrdata/db/dbtypes/v2"
+	"github.com/Decred-Next/dcrndata/db/dbtypes/v8"
 	"github.com/decred/dcrdata/db/dcrpg/v5/internal"
 )
 

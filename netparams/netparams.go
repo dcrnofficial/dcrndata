@@ -5,7 +5,7 @@
 
 package netparams
 
-import "github.com/decred/dcrd/chaincfg/v2"
+import "github.com/Decred-Next/dcrnd/chaincfg/v8"
 
 // Params is used to group parameters for various networks such as the main
 // network and test networks.

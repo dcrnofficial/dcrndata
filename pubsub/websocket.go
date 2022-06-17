@@ -11,7 +11,7 @@ import (
 	"time"
 
 	exptypes "github.com/decred/dcrdata/explorer/types/v2"
-	pstypes "github.com/decred/dcrdata/pubsub/types/v3"
+	pstypes "github.com/Decred-Next/dcrndata/pubsub/types/v8"
 )
 
 type hubSpoke chan pstypes.HubMessage

@@ -16,11 +16,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/decred/dcrd/blockchain/v2/chaingen"
-	"github.com/decred/dcrd/chaincfg/chainhash"
-	"github.com/decred/dcrd/chaincfg/v2"
-	"github.com/decred/dcrd/dcrutil/v2"
-	"github.com/decred/dcrd/wire"
+	"github.com/Decred-Next/dcrnd/blockchain/v8/chaingen"
+	"github.com/Decred-Next/dcrnd/chaincfg/chainhash/v8"
+	"github.com/Decred-Next/dcrnd/chaincfg/v8"
+	"github.com/Decred-Next/dcrnd/dcrutil/v8"
+	"github.com/Decred-Next/dcrnd/wire/v8"
 )
 
 // cloneParams returns a deep copy of the provided parameters so the caller is

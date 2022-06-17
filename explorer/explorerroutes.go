@@ -17,18 +17,18 @@ import (
 	"strings"
 	"time"
 
-	"github.com/decred/dcrd/chaincfg/chainhash"
-	"github.com/decred/dcrd/chaincfg/v2"
-	"github.com/decred/dcrd/dcrutil/v2"
-	chainjson "github.com/decred/dcrd/rpc/jsonrpc/types/v2"
-	"github.com/decred/dcrd/txscript/v2"
+	"github.com/Decred-Next/dcrnd/chaincfg/chainhash/v8"
+	"github.com/Decred-Next/dcrnd/chaincfg/v8"
+	"github.com/Decred-Next/dcrnd/dcrutil/v8"
+	chainjson "github.com/Decred-Next/dcrnd/rpc/jsonrpc/types/version2/v8"
+	"github.com/Decred-Next/dcrnd/txscript/version2/v8"
 
-	"github.com/decred/dcrdata/db/dbtypes/v2"
-	"github.com/decred/dcrdata/exchanges/v2"
+	"github.com/Decred-Next/dcrndata/db/dbtypes/v8"
+	"github.com/Decred-Next/dcrndata/exchanges/v8"
 	"github.com/decred/dcrdata/explorer/types/v2"
-	"github.com/decred/dcrdata/gov/v3/agendas"
+	"github.com/Decred-Next/dcrndata/gov/v8/agendas"
 	pitypes "github.com/decred/dcrdata/gov/v3/politeia/types"
-	"github.com/decred/dcrdata/txhelpers/v4"
+	"github.com/Decred-Next/dcrndata/txhelpers/v8"
 
 	humanize "github.com/dustin/go-humanize"
 )

@@ -9,7 +9,7 @@ import (
 	"testing"
 
 	"github.com/decred/dcrdata/dcrrates"
-	"github.com/decred/dcrdata/exchanges/v2"
+	"github.com/Decred-Next/dcrndata/exchanges/v8"
 )
 
 func TestAddDeleteClient(t *testing.T) {

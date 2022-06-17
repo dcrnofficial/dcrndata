@@ -13,10 +13,10 @@ import (
 	"strings"
 	"time"
 
-	apitypes "github.com/decred/dcrdata/api/types/v5"
-	"github.com/decred/dcrdata/db/dbtypes/v2"
+	apitypes "github.com/Decred-Next/dcrndata/api/types/v8"
+	"github.com/Decred-Next/dcrndata/db/dbtypes/v8"
 	"github.com/decred/dcrdata/explorer/types/v2"
-	pstypes "github.com/decred/dcrdata/pubsub/types/v3"
+	pstypes "github.com/Decred-Next/dcrndata/pubsub/types/v8"
 	"golang.org/x/net/websocket"
 )
 

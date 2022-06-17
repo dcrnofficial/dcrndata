@@ -8,8 +8,8 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/decred/dcrd/chaincfg/chainhash"
-	"github.com/decred/dcrd/wire"
+	"github.com/Decred-Next/dcrnd/chaincfg/chainhash/v8"
+	"github.com/Decred-Next/dcrnd/wire/v8"
 )
 
 // TestCalcMerkleRoot ensures the expected merkle root is produced for known

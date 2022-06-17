@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/decred/dcrd/chaincfg/v2"
-	"github.com/decred/dcrd/wire"
+	"github.com/Decred-Next/dcrnd/chaincfg/v8"
+	"github.com/Decred-Next/dcrnd/wire/v8"
 )
 
 // TestEstimateSupply ensures the supply estimation function used in the stake

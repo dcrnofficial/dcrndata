@@ -1,10 +1,10 @@
-module github.com/decred/dcrdata/testutil/dbload
+module github.com/Decred-Next/dcrndata/testutil/dbload
 
 go 1.12
 
 require (
-	github.com/decred/dcrdata/testutil/dbconfig/v2 v2.0.0
+	github.com/Decred-Next/dcrndata/testutil/dbconfig/v2 v2.0.0
 	github.com/lib/pq v1.1.0
 )
 
-replace github.com/decred/dcrdata/testutil/dbconfig/v2 => ../dbconfig
+replace github.com/Decred-Next/dcrndata/testutil/dbconfig/v2 => ../dbconfig

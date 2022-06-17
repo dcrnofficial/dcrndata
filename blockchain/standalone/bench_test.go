@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/decred/dcrd/chaincfg/chainhash"
+	"github.com/Decred-Next/dcrnd/chaincfg/chainhash/v8"
 )
 
 // BenchmarkCalcMerkleRootInPlace benchmarks merkle root calculation for various

@@ -3,7 +3,7 @@
 
 package dcrrates
 
-import "github.com/decred/dcrd/dcrutil/v2"
+import "github.com/Decred-Next/dcrnd/dcrutil/v8"
 
 // Default TLS configuration.
 const (

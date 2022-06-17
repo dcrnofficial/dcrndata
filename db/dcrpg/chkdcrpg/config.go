@@ -12,9 +12,9 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/decred/dcrd/chaincfg/v2"
-	"github.com/decred/dcrd/dcrutil/v2"
-	"github.com/decred/dcrdata/v5/netparams"
+	"github.com/Decred-Next/dcrnd/chaincfg/v8"
+	"github.com/Decred-Next/dcrnd/dcrutil/v8"
+	"github.com/Decred-Next/dcrndata/v8/netparams"
 	flags "github.com/jessevdk/go-flags"
 )
 
