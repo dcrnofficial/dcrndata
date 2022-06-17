@@ -15,6 +15,3 @@ require (
 	github.com/Decred-Next/dcrndata/txhelpers/v4 v4.0.1
 	github.com/decred/slog v1.0.0
 )
-replace (
-    github.com/Decred-Next/dcrnd/wire v1.3.0 => ../../dcrnd/wire
-)

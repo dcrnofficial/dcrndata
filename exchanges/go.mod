@@ -1,4 +1,4 @@
-module github.com/Decred-Next/dcrndata/exchanges/v2
+module github.com/Decred-Next/dcrndata/exchanges/v8
 
 go 1.12
 

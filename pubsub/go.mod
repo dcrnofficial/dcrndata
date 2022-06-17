@@ -1,4 +1,4 @@
-module github.com/Decred-Next/dcrndata/pubsub/v4
+module github.com/Decred-Next/dcrndata/pubsub/v8
 
 go 1.12
 

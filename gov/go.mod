@@ -1,4 +1,4 @@
-module github.com/Decred-Next/dcrndata/gov/v3
+module github.com/Decred-Next/dcrndata/gov/v8
 
 go 1.12
 

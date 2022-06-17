@@ -1,4 +1,4 @@
-module github.com/Decred-Next/dcrndata/middleware/v3
+module github.com/Decred-Next/dcrndata/middleware/v8
 
 go 1.12
 

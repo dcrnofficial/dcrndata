@@ -1,4 +1,4 @@
-module github.com/Decred-Next/dcrndata/stakedb/v3
+module github.com/Decred-Next/dcrndata/stakedb/v4
 
 go 1.12
 
