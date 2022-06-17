@@ -1,4 +1,4 @@
-set version=8.0.0
+set version=v8.0.0
 git tag -a txhelpers/%version% -m "%version%"
 git tag -a db/dbtypes/%version% -m "%version%"
 git tag -a semver/%version% -m "%version%"
