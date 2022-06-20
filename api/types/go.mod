@@ -6,8 +6,8 @@ require (
 	github.com/Decred-Next/dcrnd/chaincfg/chainhash/v8 v8.0.6
 	github.com/Decred-Next/dcrnd/dcrutil/v8 v8.0.6
 	github.com/Decred-Next/dcrnd/rpc/jsonrpc/types/version2/v8 v8.0.6
-	github.com/Decred-Next/dcrndata/db/dbtypes/v8 v8.0.4
-	github.com/Decred-Next/dcrndata/txhelpers/v8 v8.0.4
+	github.com/Decred-Next/dcrndata/db/dbtypes/v8 v8.0.5
+	github.com/Decred-Next/dcrndata/txhelpers/v8 v8.0.5
 	github.com/onsi/ginkgo v1.8.0 // indirect
 	github.com/onsi/gomega v1.5.0 // indirect
 )
