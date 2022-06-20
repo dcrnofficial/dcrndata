@@ -16,7 +16,7 @@ import (
 
 	"github.com/carterjones/signalr"
 	"github.com/carterjones/signalr/hubs"
-	"github.com/Decred-Next/dcrndata/dcrrates"
+	"github.com/Decred-Next/dcrndata/dcrrates/v8"
 )
 
 // Tokens. Used to identify the exchange.
