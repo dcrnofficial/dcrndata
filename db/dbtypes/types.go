@@ -15,7 +15,7 @@ import (
 
 	"github.com/Decred-Next/dcrnd/chaincfg/chainhash/v8"
 	"github.com/Decred-Next/dcrnd/dcrutil/version2/v8"
-	"github.com/decred/dcrdata/db/dbtypes/v2/internal"
+	"github.com/Decred-Next/dcrndata/db/dbtypes/v8/internal"
 	"github.com/Decred-Next/dcrndata/txhelpers/v8"
 )
 
