@@ -15,7 +15,7 @@ require (
 	github.com/Decred-Next/dcrndata/pubsub/types/v8 v8.0.12
 	github.com/Decred-Next/dcrndata/semver/v8 v8.0.12
 	github.com/Decred-Next/dcrndata/txhelpers/v8 v8.0.12
-	github.com/Decred-Next/dcrdata/explorer/types/v8 v8.1.10 // indirect
+	github.com/Decred-Next/dcrndata/explorer/types/v8 v8.1.10 // indirect
 	github.com/decred/slog v1.0.0
 	golang.org/x/net v0.0.0-20191028085509-fe3aa8a45271
 )

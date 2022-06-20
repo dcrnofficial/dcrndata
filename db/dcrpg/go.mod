@@ -25,7 +25,7 @@ require (
 	github.com/chappjc/trylock v1.0.0
 	github.com/davecgh/go-spew v1.1.1
 
-	github.com/Decred-Next/dcrdata/testutil/dbconfig/v8 v8.0.12
+	github.com/Decred-Next/dcrndata/testutil/dbconfig/v8 v8.0.12
 	github.com/decred/dcrwallet/wallet/v3 v3.1.1-0.20191230143837-6a86dc4676f0
 	github.com/decred/slog v1.0.0
 	github.com/dmigwi/go-piparser/proposals v0.0.0-20191219171828-ae8cbf4067e1

@@ -5,7 +5,7 @@ killall -w -INT dcrdata
 sleep 1
 
 echo 'Rebuilding...'
-cd $GOPATH/src/github.com/Decred-Next/dcrdata
+cd $GOPATH/src/github.com/Decred-Next/dcrndata
 
 git diff --no-ext-diff --quiet --exit-code
 if [ $? -ne 0 ]; then

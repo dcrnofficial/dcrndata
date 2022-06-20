@@ -12,7 +12,7 @@ import (
 
 	"github.com/Decred-Next/dcrnd/chaincfg/chainhash/v8"
 	"github.com/Decred-Next/dcrnd/wire/v8"
-	"github.com/Decred-Next/dcrdata/db/dcrpg/v8/internal"
+	"github.com/Decred-Next/dcrndata/db/dcrpg/v8/internal"
 	"github.com/Decred-Next/dcrndata/stakedb/v8"
 	"github.com/Decred-Next/dcrndata/txhelpers/v8"
 	"github.com/decred/dcrwallet/wallet/v3/txrules"
