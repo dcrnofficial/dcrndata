@@ -27,7 +27,7 @@ import (
 
 	"github.com/Decred-Next/dcrnd/chaincfg/chainhash/v8"
 	chainjson "github.com/Decred-Next/dcrnd/rpc/jsonrpc/types/version2/v8"
-	"github.com/Decred-Next/dcrnd/rpcclient/v8"
+	"github.com/Decred-Next/dcrnd/rpcclient/version5/v8"
 	"github.com/Decred-Next/dcrnd/wire/v8"
 	"github.com/Decred-Next/dcrndata/rpcutils/v8"
 	"github.com/Decred-Next/dcrndata/txhelpers/v8"

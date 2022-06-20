@@ -11,7 +11,7 @@ import (
 	"github.com/Decred-Next/dcrnd/blockchain/standalone/v8"
 	"github.com/Decred-Next/dcrnd/chaincfg/v8"
 	"github.com/Decred-Next/dcrnd/dcrutil/version2/v8"
-	"github.com/Decred-Next/dcrnd/rpcclient/v8"
+	"github.com/Decred-Next/dcrnd/rpcclient/version5/v8"
 	apitypes "github.com/Decred-Next/dcrndata/api/types/v8"
 	"github.com/Decred-Next/dcrndata/db/dbtypes/v8"
 	"github.com/Decred-Next/dcrndata/rpcutils/v8"

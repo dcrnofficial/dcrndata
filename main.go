@@ -21,7 +21,7 @@ import (
 	"time"
 
 	"github.com/Decred-Next/dcrnd/chaincfg/chainhash/v8"
-	"github.com/Decred-Next/dcrnd/rpcclient/v8"
+	"github.com/Decred-Next/dcrnd/rpcclient/version5/v8"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 
 	"github.com/Decred-Next/dcrndata/blockdata/v8"

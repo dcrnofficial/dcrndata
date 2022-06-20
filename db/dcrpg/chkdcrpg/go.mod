@@ -11,7 +11,7 @@ replace (
 require (
 	github.com/Decred-Next/dcrnd/chaincfg/v2 v2.3.0
 	github.com/Decred-Next/dcrnd/dcrutil/v2 v2.0.1
-	github.com/Decred-Next/dcrnd/rpcclient/v8 v5.0.0
+	github.com/Decred-Next/dcrnd/rpcclient/version5/v8 v5.0.0
 	github.com/Decred-Next/dcrndata/db/dcrpg/v8 v5.0.1
 	github.com/Decred-Next/dcrndata/rpcutils/v3 v3.0.1
 	github.com/Decred-Next/dcrndata/stakedb/v3 v3.1.1
