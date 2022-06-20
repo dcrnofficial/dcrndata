@@ -12,7 +12,7 @@ import (
 
 	"github.com/Decred-Next/dcrnd/chaincfg/chainhash/v8"
 	"github.com/Decred-Next/dcrnd/chaincfg/v8"
-	"github.com/Decred-Next/dcrnd/dcrutil/v8"
+	"github.com/Decred-Next/dcrnd/dcrutil/version2/v8"
 	chainjson "github.com/Decred-Next/dcrnd/rpc/jsonrpc/types/version2/v8"
 	"github.com/Decred-Next/dcrndata/db/cache/v8"
 	"github.com/Decred-Next/dcrndata/db/dbtypes/v8"

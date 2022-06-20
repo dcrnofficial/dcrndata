@@ -11,7 +11,7 @@ import (
 	"time"
 
 	"github.com/Decred-Next/dcrnd/chaincfg/v8"
-	"github.com/Decred-Next/dcrnd/dcrutil/v8"
+	"github.com/Decred-Next/dcrnd/dcrutil/version2/v8"
 	exptypes "github.com/Decred-Next/dcrndata/explorer/types/v8"
 	pstypes "github.com/Decred-Next/dcrndata/pubsub/types/v8"
 	"github.com/decred/dcrdata/pubsub/v4/psclient"

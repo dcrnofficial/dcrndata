@@ -14,7 +14,7 @@ import (
 	"github.com/Decred-Next/dcrnd/chaincfg/v8"
 	"github.com/Decred-Next/dcrnd/database/v8"
 	_ "github.com/Decred-Next/dcrnd/database/v8/ffldb"
-	"github.com/Decred-Next/dcrnd/dcrutil/v8"
+	"github.com/Decred-Next/dcrnd/dcrutil/version2/v8"
 )
 
 // This example demonstrates how to create a new chain instance and use

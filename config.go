@@ -20,7 +20,7 @@ import (
 
 	"github.com/caarlos0/env"
 	"github.com/Decred-Next/dcrnd/chaincfg/v8"
-	"github.com/Decred-Next/dcrnd/dcrutil/v8"
+	"github.com/Decred-Next/dcrnd/dcrutil/version2/v8"
 	"github.com/Decred-Next/dcrnd/wire/v8"
 	"github.com/Decred-Next/dcrndata/db/dbtypes/v8"
 	"github.com/Decred-Next/dcrndata/v8/netparams"

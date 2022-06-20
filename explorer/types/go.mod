@@ -4,7 +4,7 @@ go 1.12
 
 require (
 	github.com/Decred-Next/dcrnd/chaincfg/v8 v8.0.6
-	github.com/Decred-Next/dcrnd/dcrutil/v8 v8.0.5
+	github.com/Decred-Next/dcrnd/dcrutil/version2/v8 v8.0.5
 	github.com/Decred-Next/dcrnd/rpc/jsonrpc/types/version2/v8 v8.0.6
 	github.com/Decred-Next/dcrnd/wire/v8 v8.0.6
 	github.com/Decred-Next/dcrndata/exchanges/v8 v8.0.1

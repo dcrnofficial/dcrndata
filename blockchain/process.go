@@ -11,7 +11,7 @@ import (
 
 	"github.com/Decred-Next/dcrnd/blockchain/standalone/v8"
 	"github.com/Decred-Next/dcrnd/chaincfg/chainhash/v8"
-	"github.com/Decred-Next/dcrnd/dcrutil/v8"
+	"github.com/Decred-Next/dcrnd/dcrutil/version2/v8"
 )
 
 // BehaviorFlags is a bitmask defining tweaks to the normal behavior when

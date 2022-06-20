@@ -17,7 +17,7 @@ import (
 	"github.com/Decred-Next/dcrnd/chaincfg/chainhash/v8"
 	"github.com/Decred-Next/dcrnd/chaincfg/v8"
 	"github.com/Decred-Next/dcrnd/database/v8"
-	"github.com/Decred-Next/dcrnd/dcrutil/v8"
+	"github.com/Decred-Next/dcrnd/dcrutil/version2/v8"
 	"github.com/Decred-Next/dcrnd/rpcclient/v8"
 	"github.com/Decred-Next/dcrnd/wire/v8"
 	apitypes "github.com/Decred-Next/dcrndata/api/types/v8"

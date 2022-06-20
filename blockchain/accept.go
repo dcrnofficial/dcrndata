@@ -10,7 +10,7 @@ import (
 
 	"github.com/Decred-Next/dcrnd/blockchain/stake/v8"
 	"github.com/Decred-Next/dcrnd/database/v8"
-	"github.com/Decred-Next/dcrnd/dcrutil/v8"
+	"github.com/Decred-Next/dcrnd/dcrutil/version2/v8"
 )
 
 // maybeAcceptBlock potentially accepts a block into the block chain and, if

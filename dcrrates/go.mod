@@ -6,7 +6,7 @@ require (
 	github.com/Decred-Next/dcrnd/chaincfg/v8 v8.0.6 // indirect
 	github.com/Decred-Next/dcrnd/crypto/ripemd160/v8 v8.0.6 // indirect
 	github.com/Decred-Next/dcrnd/dcrec/v8 v8.0.6 // indirect
-	github.com/Decred-Next/dcrnd/dcrutil/v8 v8.0.6
+	github.com/Decred-Next/dcrnd/dcrutil/version2/v8 v8.0.6
 	github.com/golang/protobuf v1.3.2
 	golang.org/x/net v0.0.0-20191028085509-fe3aa8a45271
 	golang.org/x/sys v0.0.0-20190412213103-97732733099d // indirect
