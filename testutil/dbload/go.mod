@@ -1,4 +1,4 @@
-module github.com/Decred-Next/dcrndata/testutil/dbload
+module github.com/Decred-Next/dcrndata/testutil/dbload/v8
 
 go 1.12
 

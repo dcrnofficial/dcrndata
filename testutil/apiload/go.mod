@@ -1,4 +1,4 @@
-module github.com/Decred-Next/dcrndata/testutil/apiload
+module github.com/Decred-Next/dcrndata/testutil/apiload/v8
 
 go 1.12
 
