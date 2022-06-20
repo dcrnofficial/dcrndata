@@ -8,7 +8,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/decred/dcrdata/dcrrates"
+	"github.com/Decred-Next/dcrdata/dcrrates"
 	"github.com/Decred-Next/dcrndata/exchanges/v8"
 )
 

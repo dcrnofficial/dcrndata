@@ -24,7 +24,7 @@ import (
 	apitypes "github.com/Decred-Next/dcrndata/api/types/v8"
 	"github.com/Decred-Next/dcrndata/db/cache/v8"
 	"github.com/Decred-Next/dcrndata/db/dbtypes/v8"
-	"github.com/decred/dcrdata/db/dcrpg/v5/internal"
+	"github.com/Decred-Next/dcrdata/db/dcrpg/v8/internal"
 	"github.com/Decred-Next/dcrndata/txhelpers/v8"
 	humanize "github.com/dustin/go-humanize"
 	"github.com/lib/pq"

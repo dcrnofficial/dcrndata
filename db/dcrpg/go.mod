@@ -11,21 +11,21 @@ require (
 	github.com/Decred-Next/dcrnd/rpcclient/v8 v8.0.6
 	github.com/Decred-Next/dcrnd/txscript/version2/v8 v8.0.6
 	github.com/Decred-Next/dcrnd/wire/v8 v8.0.6
-	github.com/Decred-Next/dcrndata/api/types/v8 v8.0.10
-	github.com/Decred-Next/dcrndata/blockdata/v8 v8.0.10
-	github.com/Decred-Next/dcrndata/db/cache/v8 v8.0.10
-	github.com/Decred-Next/dcrndata/db/dbtypes/v8 v8.0.10
-	github.com/Decred-Next/dcrndata/explorer/types/v8 v8.0.10
-	github.com/Decred-Next/dcrndata/mempool/v8 v8.0.10
-	github.com/Decred-Next/dcrndata/pubsub/types/v8 v8.0.10 // indirect
-	github.com/Decred-Next/dcrndata/rpcutils/v8 v8.0.10
-	github.com/Decred-Next/dcrndata/semver/v8 v8.0.10
-	github.com/Decred-Next/dcrndata/stakedb/v8 v8.0.10
-	github.com/Decred-Next/dcrndata/txhelpers/v8 v8.0.10
+	github.com/Decred-Next/dcrndata/api/types/v8 v8.0.11
+	github.com/Decred-Next/dcrndata/blockdata/v8 v8.0.11
+	github.com/Decred-Next/dcrndata/db/cache/v8 v8.0.11
+	github.com/Decred-Next/dcrndata/db/dbtypes/v8 v8.0.11
+	github.com/Decred-Next/dcrndata/explorer/types/v8 v8.0.11
+	github.com/Decred-Next/dcrndata/mempool/v8 v8.0.11
+	github.com/Decred-Next/dcrndata/pubsub/types/v8 v8.0.11 // indirect
+	github.com/Decred-Next/dcrndata/rpcutils/v8 v8.0.11
+	github.com/Decred-Next/dcrndata/semver/v8 v8.0.11
+	github.com/Decred-Next/dcrndata/stakedb/v8 v8.0.11
+	github.com/Decred-Next/dcrndata/txhelpers/v8 v8.0.11
 	github.com/chappjc/trylock v1.0.0
 	github.com/davecgh/go-spew v1.1.1
-	github.com/decred/dcrdata/db/dcrpg/v5 v5.0.1
-	github.com/decred/dcrdata/testutil/dbconfig/v2 v2.0.0
+	github.com/Decred-Next/dcrdata/db/dcrpg/v8 v8.0.11
+	github.com/Decred-Next/dcrdata/testutil/dbconfig/v2 v2.0.0
 	github.com/decred/dcrwallet/wallet/v3 v3.1.1-0.20191230143837-6a86dc4676f0
 	github.com/decred/slog v1.0.0
 	github.com/dmigwi/go-piparser/proposals v0.0.0-20191219171828-ae8cbf4067e1
