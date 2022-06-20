@@ -12,9 +12,9 @@ require (
 	github.com/Decred-Next/dcrnd/dcrutil/version2/v8 v8.0.6
 	github.com/Decred-Next/dcrnd/rpcclient/v8 v8.0.6
 	github.com/Decred-Next/dcrnd/wire/v8 v8.0.6
-	github.com/Decred-Next/dcrndata/api/types/v8 v8.0.8
-	github.com/Decred-Next/dcrndata/rpcutils/v8 v8.0.8
-	github.com/Decred-Next/dcrndata/txhelpers/v8 v8.0.8
+	github.com/Decred-Next/dcrndata/api/types/v8 v8.0.9
+	github.com/Decred-Next/dcrndata/rpcutils/v8 v8.0.9
+	github.com/Decred-Next/dcrndata/txhelpers/v8 v8.0.9
 	github.com/asdine/storm/v3 v3.0.0-20191014171123-c370e07ad6d4
 	github.com/decred/slog v1.0.0
 	github.com/dgraph-io/badger v1.5.5-0.20190214192501-3196cc1d7a5f

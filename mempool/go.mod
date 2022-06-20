@@ -10,12 +10,12 @@ require (
 	github.com/Decred-Next/dcrnd/dcrutil/version2/v8 v8.0.6
 	github.com/Decred-Next/dcrnd/rpc/jsonrpc/types/version2/v8 v8.0.6
 	github.com/Decred-Next/dcrnd/rpcclient/v8 v8.0.6
-	github.com/Decred-Next/dcrndata/api/types/v8 v8.0.8
-	github.com/Decred-Next/dcrndata/db/dbtypes/v8 v8.0.8
-	github.com/Decred-Next/dcrndata/explorer/types/v8 v8.0.8
-	github.com/Decred-Next/dcrndata/pubsub/types/v8 v8.0.8
-	github.com/Decred-Next/dcrndata/rpcutils/v8 v8.0.8
-	github.com/Decred-Next/dcrndata/txhelpers/v8 v8.0.8
+	github.com/Decred-Next/dcrndata/api/types/v8 v8.0.9
+	github.com/Decred-Next/dcrndata/db/dbtypes/v8 v8.0.9
+	github.com/Decred-Next/dcrndata/explorer/types/v8 v8.0.9
+	github.com/Decred-Next/dcrndata/pubsub/types/v8 v8.0.9
+	github.com/Decred-Next/dcrndata/rpcutils/v8 v8.0.9
+	github.com/Decred-Next/dcrndata/txhelpers/v8 v8.0.9
 	github.com/decred/slog v1.0.0
 	github.com/dustin/go-humanize v1.0.0
 )
