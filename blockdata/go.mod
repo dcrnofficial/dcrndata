@@ -9,9 +9,9 @@ require (
 	github.com/Decred-Next/dcrnd/rpc/jsonrpc/types/version2/v8 v8.0.6
 	github.com/Decred-Next/dcrnd/rpcclient/v8 v8.0.6
 	github.com/Decred-Next/dcrnd/wire/v8 v8.0.6
-	github.com/Decred-Next/dcrndata/api/types/v8 v8.0.7
-	github.com/Decred-Next/dcrndata/db/dbtypes/v8 v8.0.7
-	github.com/Decred-Next/dcrndata/stakedb/v8 v8.0.7
-	github.com/Decred-Next/dcrndata/txhelpers/v8 v8.0.7
+	github.com/Decred-Next/dcrndata/api/types/v8 v8.0.8
+	github.com/Decred-Next/dcrndata/db/dbtypes/v8 v8.0.8
+	github.com/Decred-Next/dcrndata/stakedb/v8 v8.0.8
+	github.com/Decred-Next/dcrndata/txhelpers/v8 v8.0.8
 	github.com/decred/slog v1.0.0
 )

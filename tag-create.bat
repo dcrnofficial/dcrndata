@@ -1,4 +1,4 @@
-set version=v8.0.7
+set version=v8.0.8
 git tag -a txhelpers/%version% -m "%version%"
 git tag -a db/dbtypes/%version% -m "%version%"
 git tag -a db/dcrpg/%version% -m "%version%"
@@ -13,6 +13,7 @@ git tag -a pubsub/types/%version% -m "%version%"
 git tag -a pubsub/%version% -m "%version%"
 git tag -a rpcutils/%version% -m "%version%"
 git tag -a stakedb/%version% -m "%version%"
-git tag -a api/type/%version% -m "%version%"
+git tag -a api/types/%version% -m "%version%"
 git tag -a explorer/%version% -m "%version%"
+git tag -a explorer/types/%version% -m "%version%"
 git push origin --tags
