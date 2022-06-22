@@ -3,7 +3,7 @@ module github.com/Decred-Next/dcrndata/exchanges/v8
 go 1.12
 
 require (
-	github.com/Decred-Next/dcrndata/dcrrates/v8 v8.0.14
+	github.com/Decred-Next/dcrndata/dcrrates/v8 v8.0.15
 	github.com/carterjones/signalr v0.3.5
 	github.com/decred/slog v1.0.0
 	github.com/gorilla/websocket v1.4.1

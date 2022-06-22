@@ -12,22 +12,22 @@ require (
 	github.com/Decred-Next/dcrnd/rpcclient/version5/v8 v8.0.8
 	github.com/Decred-Next/dcrnd/txscript/version2/v8 v8.0.8
 	github.com/Decred-Next/dcrnd/wire/v8 v8.0.8
-	github.com/Decred-Next/dcrndata/api/types/v8 v8.0.14
-	github.com/Decred-Next/dcrndata/blockdata/v8 v8.0.14
-	github.com/Decred-Next/dcrndata/db/cache/v8 v8.0.14
-	github.com/Decred-Next/dcrndata/db/dbtypes/v8 v8.0.14
-	github.com/Decred-Next/dcrndata/db/dcrpg/v8 v8.0.14
-	github.com/Decred-Next/dcrndata/exchanges/v8 v8.0.14
-	github.com/Decred-Next/dcrndata/explorer/types/v8 v8.0.14
-	github.com/Decred-Next/dcrndata/gov/v8 v8.0.14
-	github.com/Decred-Next/dcrndata/mempool/v8 v8.0.14
-	github.com/Decred-Next/dcrndata/middleware/v8 v8.0.14
-	github.com/Decred-Next/dcrndata/pubsub/types/v8 v8.0.14
-	github.com/Decred-Next/dcrndata/pubsub/v8 v8.0.14
-	github.com/Decred-Next/dcrndata/rpcutils/v8 v8.0.14
-	github.com/Decred-Next/dcrndata/semver/v8 v8.0.14
-	github.com/Decred-Next/dcrndata/stakedb/v8 v8.0.14
-	github.com/Decred-Next/dcrndata/txhelpers/v8 v8.0.14
+	github.com/Decred-Next/dcrndata/api/types/v8 v8.0.15
+	github.com/Decred-Next/dcrndata/blockdata/v8 v8.0.15
+	github.com/Decred-Next/dcrndata/db/cache/v8 v8.0.15
+	github.com/Decred-Next/dcrndata/db/dbtypes/v8 v8.0.15
+	github.com/Decred-Next/dcrndata/db/dcrpg/v8 v8.0.15
+	github.com/Decred-Next/dcrndata/exchanges/v8 v8.0.15
+	github.com/Decred-Next/dcrndata/explorer/types/v8 v8.0.15
+	github.com/Decred-Next/dcrndata/gov/v8 v8.0.15
+	github.com/Decred-Next/dcrndata/mempool/v8 v8.0.15
+	github.com/Decred-Next/dcrndata/middleware/v8 v8.0.15
+	github.com/Decred-Next/dcrndata/pubsub/types/v8 v8.0.15
+	github.com/Decred-Next/dcrndata/pubsub/v8 v8.0.15
+	github.com/Decred-Next/dcrndata/rpcutils/v8 v8.0.15
+	github.com/Decred-Next/dcrndata/semver/v8 v8.0.15
+	github.com/Decred-Next/dcrndata/stakedb/v8 v8.0.15
+	github.com/Decred-Next/dcrndata/txhelpers/v8 v8.0.15
 	github.com/Decred-Next/dcrnwallet/wallet/version3/v8 v8.0.2 // indirect
 	github.com/caarlos0/env v3.5.0+incompatible
 	github.com/chappjc/logrus-prefix v0.0.0-20180227015900-3a1d64819adb
