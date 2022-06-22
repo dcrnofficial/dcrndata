@@ -3,14 +3,14 @@ module github.com/Decred-Next/dcrndata/db/dcrpg/v8
 go 1.12
 
 require (
-	github.com/Decred-Next/dcrnd/blockchain/stake/v8 v8.0.6
-	github.com/Decred-Next/dcrnd/chaincfg/chainhash/v8 v8.0.6
-	github.com/Decred-Next/dcrnd/chaincfg/v8 v8.0.6
-	github.com/Decred-Next/dcrnd/dcrutil/version2/v8 v8.0.6
-	github.com/Decred-Next/dcrnd/rpc/jsonrpc/types/version2/v8 v8.0.6
-	github.com/Decred-Next/dcrnd/rpcclient/version5/v8 v8.0.6
-	github.com/Decred-Next/dcrnd/txscript/version2/v8 v8.0.6
-	github.com/Decred-Next/dcrnd/wire/v8 v8.0.6
+	github.com/Decred-Next/dcrnd/blockchain/stake/version2/v8 v8.0.8
+	github.com/Decred-Next/dcrnd/chaincfg/chainhash/v8 v8.0.8
+	github.com/Decred-Next/dcrnd/chaincfg/v8 v8.0.8
+	github.com/Decred-Next/dcrnd/dcrutil/version2/v8 v8.0.8
+	github.com/Decred-Next/dcrnd/rpc/jsonrpc/types/version2/v8 v8.0.8
+	github.com/Decred-Next/dcrnd/rpcclient/version5/v8 v8.0.8
+	github.com/Decred-Next/dcrnd/txscript/version2/v8 v8.0.8
+	github.com/Decred-Next/dcrnd/wire/v8 v8.0.8
 	github.com/Decred-Next/dcrndata/api/types/v8 v8.0.14
 	github.com/Decred-Next/dcrndata/blockdata/v8 v8.0.14
 	github.com/Decred-Next/dcrndata/db/cache/v8 v8.0.14

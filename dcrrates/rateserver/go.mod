@@ -3,7 +3,7 @@ module github.com/Decred-Next/dcrndata/dcrrates/rateserver
 go 1.12
 
 require (
-	github.com/Decred-Next/dcrnd/certgen/v8 v8.0.6
+	github.com/Decred-Next/dcrnd/certgen/v8 v8.0.8
 	github.com/Decred-Next/dcrndata/dcrrates/v8 v8.0.14
 	github.com/Decred-Next/dcrndata/exchanges/v8 v8.0.14
 	github.com/decred/slog v1.0.0

@@ -5,13 +5,13 @@ go 1.12
 require (
 	github.com/AndreasBriese/bbloom v0.0.0-20190306092124-e2d15f34fcf9 // indirect
 	github.com/DataDog/zstd v1.4.1 // indirect
-	github.com/Decred-Next/dcrnd/blockchain/stake/v8 v8.0.6
-	github.com/Decred-Next/dcrnd/chaincfg/chainhash/v8 v8.0.6
-	github.com/Decred-Next/dcrnd/chaincfg/v8 v8.0.6
-	github.com/Decred-Next/dcrnd/database/v8 v8.0.6
-	github.com/Decred-Next/dcrnd/dcrutil/version2/v8 v8.0.6
-	github.com/Decred-Next/dcrnd/rpcclient/version5/v8 v8.0.6
-	github.com/Decred-Next/dcrnd/wire/v8 v8.0.6
+	github.com/Decred-Next/dcrnd/blockchain/stake/version2/v8 v8.0.8
+	github.com/Decred-Next/dcrnd/chaincfg/chainhash/v8 v8.0.8
+	github.com/Decred-Next/dcrnd/chaincfg/v8 v8.0.8
+	github.com/Decred-Next/dcrnd/database/v8 v8.0.8
+	github.com/Decred-Next/dcrnd/dcrutil/version2/v8 v8.0.8
+	github.com/Decred-Next/dcrnd/rpcclient/version5/v8 v8.0.8
+	github.com/Decred-Next/dcrnd/wire/v8 v8.0.8
 	github.com/Decred-Next/dcrndata/api/types/v8 v8.0.14
 	github.com/Decred-Next/dcrndata/rpcutils/v8 v8.0.14
 	github.com/Decred-Next/dcrndata/txhelpers/v8 v8.0.14

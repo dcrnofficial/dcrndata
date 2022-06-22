@@ -8,7 +8,7 @@ package stake_test
 import (
 	"testing"
 
-	"github.com/Decred-Next/dcrnd/blockchain/stake/v8"
+	"github.com/Decred-Next/dcrnd/blockchain/stake/version2/v8"
 )
 
 // TestErrorCodeStringer tests the stringized output for the ErrorCode type.

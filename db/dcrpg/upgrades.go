@@ -15,7 +15,7 @@ import (
 	"github.com/Decred-Next/dcrndata/db/dcrpg/v8/internal"
 	"github.com/Decred-Next/dcrndata/stakedb/v8"
 	"github.com/Decred-Next/dcrndata/txhelpers/v8"
-	"github.com/decred/dcrwallet/wallet/v3/txrules"
+	"github.com/Decred-Next/dcrnwallet/wallet/version3/v8/txrules"
 	"github.com/lib/pq"
 )
 

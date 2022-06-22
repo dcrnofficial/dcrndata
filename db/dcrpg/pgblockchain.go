@@ -22,7 +22,7 @@ import (
 	"time"
 
 	"github.com/chappjc/trylock"
-	"github.com/Decred-Next/dcrnd/blockchain/stake/v8"
+	"github.com/Decred-Next/dcrnd/blockchain/stake/version2/v8"
 	"github.com/Decred-Next/dcrnd/chaincfg/chainhash/v8"
 	"github.com/Decred-Next/dcrnd/chaincfg/v8"
 	"github.com/Decred-Next/dcrnd/dcrutil/version2/v8"
@@ -38,7 +38,7 @@ import (
 	"github.com/Decred-Next/dcrndata/rpcutils/v8"
 	"github.com/Decred-Next/dcrndata/stakedb/v8"
 	"github.com/Decred-Next/dcrndata/txhelpers/v8"
-	"github.com/decred/dcrwallet/wallet/v3/txrules"
+	"github.com/Decred-Next/dcrnwallet/wallet/version3/v8/txrules"
 	pitypes "github.com/dmigwi/go-piparser/proposals/types"
 	humanize "github.com/dustin/go-humanize"
 	"github.com/lib/pq"
