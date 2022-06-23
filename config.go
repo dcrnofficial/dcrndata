@@ -25,7 +25,7 @@ import (
 	"github.com/Decred-Next/dcrndata/db/dbtypes/v8"
 	"github.com/Decred-Next/dcrndata/v8/netparams"
 	"github.com/Decred-Next/dcrndata/v8/version"
-	"github.com/decred/slog"
+	"github.com/Decred-Next/slog/v8"
 	flags "github.com/jessevdk/go-flags"
 )
 

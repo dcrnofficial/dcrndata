@@ -6,7 +6,7 @@
 package blockchain
 
 import (
-	"github.com/decred/slog"
+	"github.com/Decred-Next/slog/v8"
 )
 
 // log is a logger that is initialized with no output filters.  This

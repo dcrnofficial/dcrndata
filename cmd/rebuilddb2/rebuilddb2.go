@@ -20,7 +20,7 @@ import (
 	"github.com/Decred-Next/dcrndata/db/dcrpg/v8"
 	"github.com/Decred-Next/dcrndata/rpcutils/v8"
 	"github.com/Decred-Next/dcrndata/stakedb/v8"
-	"github.com/decred/slog"
+	"github.com/Decred-Next/slog/v8"
 	"github.com/dmigwi/go-piparser/proposals"
 )
 

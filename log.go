@@ -24,7 +24,7 @@ import (
 	"github.com/Decred-Next/dcrndata/v8/api/insight"
 	"github.com/Decred-Next/dcrndata/v8/explorer"
 	notify "github.com/Decred-Next/dcrndata/v8/notification"
-	"github.com/decred/slog"
+	"github.com/Decred-Next/slog/v8"
 	"github.com/jrick/logrotate/rotator"
 )
 

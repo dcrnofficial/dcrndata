@@ -16,7 +16,7 @@ import (
 	"github.com/Decred-Next/dcrndata/db/dbtypes/v8"
 	"github.com/Decred-Next/dcrndata/rpcutils/v8"
 	"github.com/Decred-Next/dcrndata/txhelpers/v8"
-	"github.com/decred/slog"
+	"github.com/Decred-Next/slog/v8"
 )
 
 var host = flag.String("host", "127.0.0.1:9109", "node RPC host:port")

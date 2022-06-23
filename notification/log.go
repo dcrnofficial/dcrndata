@@ -1,6 +1,6 @@
 package notification
 
-import "github.com/decred/slog"
+import "github.com/Decred-Next/slog/v8"
 
 // log is a logger that is initialized with no output filters.  This
 // means the package will not perform any logging by default until the caller

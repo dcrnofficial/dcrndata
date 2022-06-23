@@ -13,7 +13,7 @@ import (
 	"github.com/Decred-Next/dcrnd/chaincfg/v8"
 	"github.com/Decred-Next/dcrndata/db/cache/v8"
 	"github.com/Decred-Next/dcrndata/testutil/dbconfig/v8"
-	"github.com/decred/slog"
+	"github.com/Decred-Next/slog/v8"
 	pitypes "github.com/dmigwi/go-piparser/proposals/types"
 )
 

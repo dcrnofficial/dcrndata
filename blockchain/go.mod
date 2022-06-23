@@ -14,7 +14,7 @@ require (
 	github.com/Decred-Next/dcrnd/gcs/v2 v2.0.0
 	github.com/Decred-Next/dcrnd/txscript/v2 v2.1.0
 	github.com/Decred-Next/dcrnd/wire v1.3.0
-	github.com/decred/slog v1.0.0
+	github.com/Decred-Next/slog/v8 v8.0.1
 )
 
 replace (

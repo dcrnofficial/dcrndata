@@ -16,7 +16,7 @@ import (
 	pstypes "github.com/Decred-Next/dcrndata/pubsub/types/v8"
 	"github.com/Decred-Next/pubsub/v8/psclient"
 	"github.com/Decred-Next/dcrndata/semver/v8"
-	"github.com/decred/slog"
+	"github.com/Decred-Next/slog/v8"
 	survey "gopkg.in/AlecAivazis/survey.v1"
 )
 

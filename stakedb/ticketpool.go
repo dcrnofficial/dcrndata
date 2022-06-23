@@ -16,7 +16,7 @@ import (
 
 	"github.com/asdine/storm/v3"
 	"github.com/Decred-Next/dcrnd/chaincfg/chainhash/v8"
-	"github.com/decred/slog"
+	"github.com/Decred-Next/slog/v8"
 	"github.com/dgraph-io/badger"
 )
 

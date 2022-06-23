@@ -13,7 +13,7 @@ import (
 
 	"github.com/carterjones/signalr"
 	"github.com/carterjones/signalr/hubs"
-	"github.com/decred/slog"
+	"github.com/Decred-Next/slog/v8"
 )
 
 func enableTestLog() {
