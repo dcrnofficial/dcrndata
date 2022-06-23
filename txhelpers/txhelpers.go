@@ -19,7 +19,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/decred/base58"
+	"github.com/Decred-Next/base58/v8"
 	"github.com/Decred-Next/dcrnd/blockchain/stake/version2/v8"
 	"github.com/Decred-Next/dcrnd/blockchain/standalone/v8"
 	"github.com/Decred-Next/dcrnd/chaincfg/chainhash/v8"

@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/decred/base58"
+	"github.com/Decred-Next/base58/v8"
 	exptypes "github.com/Decred-Next/dcrndata/explorer/types/v8"
 )
 

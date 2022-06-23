@@ -3,36 +3,35 @@ module github.com/Decred-Next/dcrndata/v8
 go 1.12
 
 require (
-	github.com/Decred-Next/dcrnd/blockchain/standalone/v8 v8.0.9
-	github.com/Decred-Next/dcrnd/chaincfg/chainhash/v8 v8.0.9
-	github.com/Decred-Next/dcrnd/chaincfg/v8 v8.0.9
-	github.com/Decred-Next/dcrnd/dcrec/v8 v8.0.9
-	github.com/Decred-Next/dcrnd/dcrutil/version2/v8 v8.0.9
-	github.com/Decred-Next/dcrnd/rpc/jsonrpc/types/version2/v8 v8.0.9
-	github.com/Decred-Next/dcrnd/rpcclient/version5/v8 v8.0.9
-	github.com/Decred-Next/dcrnd/txscript/version2/v8 v8.0.9
-	github.com/Decred-Next/dcrnd/wire/v8 v8.0.9
-	github.com/Decred-Next/dcrndata/api/types/v8 v8.0.16
-	github.com/Decred-Next/dcrndata/blockdata/v8 v8.0.16
-	github.com/Decred-Next/dcrndata/db/cache/v8 v8.0.16
-	github.com/Decred-Next/dcrndata/db/dbtypes/v8 v8.0.16
-	github.com/Decred-Next/dcrndata/db/dcrpg/v8 v8.0.16
-	github.com/Decred-Next/dcrndata/exchanges/v8 v8.0.16
-	github.com/Decred-Next/dcrndata/explorer/types/v8 v8.0.16
-	github.com/Decred-Next/dcrndata/gov/v8 v8.0.16
-	github.com/Decred-Next/dcrndata/mempool/v8 v8.0.16
-	github.com/Decred-Next/dcrndata/middleware/v8 v8.0.16
-	github.com/Decred-Next/dcrndata/pubsub/types/v8 v8.0.16
-	github.com/Decred-Next/dcrndata/pubsub/v8 v8.0.16
-	github.com/Decred-Next/dcrndata/rpcutils/v8 v8.0.16
-	github.com/Decred-Next/dcrndata/semver/v8 v8.0.16
-	github.com/Decred-Next/dcrndata/stakedb/v8 v8.0.16
-	github.com/Decred-Next/dcrndata/txhelpers/v8 v8.0.16
+	github.com/Decred-Next/dcrnd/blockchain/standalone/v8 v8.0.10
+	github.com/Decred-Next/dcrnd/chaincfg/chainhash/v8 v8.0.10
+	github.com/Decred-Next/dcrnd/chaincfg/v8 v8.0.10
+	github.com/Decred-Next/dcrnd/dcrec/v8 v8.0.10
+	github.com/Decred-Next/dcrnd/dcrutil/version2/v8 v8.0.10
+	github.com/Decred-Next/dcrnd/rpc/jsonrpc/types/version2/v8 v8.0.10
+	github.com/Decred-Next/dcrnd/rpcclient/version5/v8 v8.0.10
+	github.com/Decred-Next/dcrnd/txscript/version2/v8 v8.0.10
+	github.com/Decred-Next/dcrnd/wire/v8 v8.0.10
+	github.com/Decred-Next/dcrndata/api/types/v8 v8.0.17
+	github.com/Decred-Next/dcrndata/blockdata/v8 v8.0.17
+	github.com/Decred-Next/dcrndata/db/cache/v8 v8.0.17
+	github.com/Decred-Next/dcrndata/db/dbtypes/v8 v8.0.17
+	github.com/Decred-Next/dcrndata/db/dcrpg/v8 v8.0.17
+	github.com/Decred-Next/dcrndata/exchanges/v8 v8.0.17
+	github.com/Decred-Next/dcrndata/explorer/types/v8 v8.0.17
+	github.com/Decred-Next/dcrndata/gov/v8 v8.0.17
+	github.com/Decred-Next/dcrndata/mempool/v8 v8.0.17
+	github.com/Decred-Next/dcrndata/middleware/v8 v8.0.17
+	github.com/Decred-Next/dcrndata/pubsub/types/v8 v8.0.17
+	github.com/Decred-Next/dcrndata/pubsub/v8 v8.0.17
+	github.com/Decred-Next/dcrndata/rpcutils/v8 v8.0.17
+	github.com/Decred-Next/dcrndata/semver/v8 v8.0.17
+	github.com/Decred-Next/dcrndata/stakedb/v8 v8.0.17
+	github.com/Decred-Next/dcrndata/txhelpers/v8 v8.0.17
 	github.com/Decred-Next/dcrnwallet/wallet/version3/v8 v8.0.2 // indirect
 	github.com/Decred-Next/slog/v8 v8.0.1
 	github.com/caarlos0/env v3.5.0+incompatible
 	github.com/chappjc/logrus-prefix v0.0.0-20180227015900-3a1d64819adb
-	github.com/decred/base58 v1.0.3 // indirect
 	github.com/dmigwi/go-piparser/proposals v0.0.0-20191219171828-ae8cbf4067e1
 	github.com/dustin/go-humanize v1.0.0
 	github.com/go-chi/chi v4.1.0+incompatible
