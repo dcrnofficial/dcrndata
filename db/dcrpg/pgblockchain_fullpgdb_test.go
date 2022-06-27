@@ -10,7 +10,7 @@ import (
 
 	"github.com/davecgh/go-spew/spew"
 	"github.com/Decred-Next/dcrnd/wire/v8"
-	"github.com/Decred-Next/dcrndata/db/dcrpg/internal"
+	"github.com/Decred-Next/dcrndata/v8/db/dcrpg/internal"
 )
 
 func TestMixedUtxosByHeight(t *testing.T) {

@@ -13,8 +13,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/Decred-Next/dcrndata/dcrrates"
-	"github.com/Decred-Next/dcrndata/exchanges"
+	"github.com/Decred-Next/dcrndata/v8/dcrrates"
+	"github.com/Decred-Next/dcrndata/v8/exchanges"
 	"google.golang.org/grpc"
 )
 

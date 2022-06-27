@@ -1142,7 +1142,7 @@ func GenesisTxHash(params *chaincfg.Params) chainhash.Hash {
 }
 
 // IsZeroHashP2PHKAddress checks if the given address is the dummy (zero pubkey
-// hash) address. See https://github.com/Decred-Next/dcrndata/issues/358 for details.
+// hash) address. See https://github.com/Decred-Next/dcrndata/v8/issues/358 for details.
 func IsZeroHashP2PHKAddress(checkAddressString string, params *chaincfg.Params) bool {
 	zeroed := [20]byte{}
 	// expecting DsQxuVRvS4eaJ42dhQEsCXauMWjvopWgrVg address for mainnet

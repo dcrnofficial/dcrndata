@@ -17,17 +17,17 @@ Be able to build dcrdata (see [../../README.md](../../README.md#build-from-sourc
 
 * Clone the dcrdata repository
 
-      git clone https://github.com/Decred-Next/dcrndata $GOPATH/src/github.com/Decred-Next/dcrndata
+      git clone https://github.com/Decred-Next/dcrndata/v8 $GOPATH/src/github.com/Decred-Next/dcrndata/v8
 
 * Populate vendor folder with `dep ensure`
 
-      cd $GOPATH/src/github.com/Decred-Next/dcrndata
+      cd $GOPATH/src/github.com/Decred-Next/dcrndata/v8
       dep ensure
 
 * Build `rebuilddb2`
 
       # build rebuilddb2 executable in workspace:
-      cd $GOPATH/src/github.com/Decred-Next/dcrndata/cmd/rebuilddb2
+      cd $GOPATH/src/github.com/Decred-Next/dcrndata/v8/cmd/rebuilddb2
       go build
       # or to install dcrdata and other tools into $GOPATH/bin:
       go install ./cmd/rebuilddb2

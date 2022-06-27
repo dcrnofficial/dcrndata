@@ -15,8 +15,8 @@ import (
 
 	"github.com/Decred-Next/dcrnd/chaincfg/chainhash/v8"
 	"github.com/Decred-Next/dcrnd/dcrutil/version2/v8"
-	"github.com/Decred-Next/dcrndata/db/dbtypes/internal"
-	"github.com/Decred-Next/dcrndata/txhelpers"
+	"github.com/Decred-Next/dcrndata/v8/db/dbtypes/internal"
+	"github.com/Decred-Next/dcrndata/v8/txhelpers"
 )
 
 var (
@@ -1769,7 +1769,7 @@ type AddressInfo struct {
 
 	// IsDummyAddress is true when the address is the dummy address typically
 	// used for unspendable ticket change outputs. See
-	// https://github.com/Decred-Next/dcrndata/v5/issues/358 for details.
+	// https://github.com/Decred-Next/dcrndata/v8/v5/issues/358 for details.
 	IsDummyAddress bool
 
 	// Page parameters

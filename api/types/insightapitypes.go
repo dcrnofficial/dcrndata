@@ -8,7 +8,7 @@ import (
 	"encoding/json"
 
 	"github.com/Decred-Next/dcrnd/dcrutil/version2/v8"
-	"github.com/Decred-Next/dcrndata/db/dbtypes"
+	"github.com/Decred-Next/dcrndata/v8/db/dbtypes"
 )
 
 // SyncResponse contains sync status information.

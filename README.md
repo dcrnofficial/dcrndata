@@ -1,9 +1,9 @@
 dcrdata
 =======
 
-[![Build Status](https://github.com/Decred-Next/dcrndata/workflows/Build%20and%20Test/badge.svg)](https://github.com/Decred-Next/dcrndata/actions)
-[![Latest tag](https://img.shields.io/github/tag/decred/dcrdata.svg)](https://github.com/Decred-Next/dcrndata/tags)
-[![Go Report Card](https://goreportcard.com/badge/github.com/Decred-Next/dcrndata)](https://goreportcard.com/report/github.com/Decred-Next/dcrndata)
+[![Build Status](https://github.com/Decred-Next/dcrndata/v8/workflows/Build%20and%20Test/badge.svg)](https://github.com/Decred-Next/dcrndata/v8/actions)
+[![Latest tag](https://img.shields.io/github/tag/decred/dcrdata.svg)](https://github.com/Decred-Next/dcrndata/v8/tags)
+[![Go Report Card](https://goreportcard.com/badge/github.com/Decred-Next/dcrndata/v8)](https://goreportcard.com/report/github.com/Decred-Next/dcrndata/v8)
 [![ISC License](https://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
 
 ## Overview
@@ -178,7 +178,7 @@ NOTE: The following instructions assume a Unix-like shell (e.g. bash).
   this is no longer necessary with go module. For example:
 
   ```sh
-  git clone https://github.com/Decred-Next/dcrndata $HOME/go-work/github/decred/dcrdata
+  git clone https://github.com/Decred-Next/dcrndata/v8 $HOME/go-work/github/decred/dcrdata
   ```
 
 - [Install Node.js](https://nodejs.org/en/download/), which is required to lint
@@ -247,8 +247,8 @@ desirable to set the "pre" and "dev" values to different strings, such as
 
 ```sh
 GO111MODULE=on go build -o dcrdata -v -ldflags \
-    "-X github.com/Decred-Next/dcrndata/v5/version.appPreRelease=beta \
-     -X github.com/Decred-Next/dcrndata/v5/version.appBuild=`git rev-parse --short HEAD`"
+    "-X github.com/Decred-Next/dcrndata/v8/v5/version.appPreRelease=beta \
+     -X github.com/Decred-Next/dcrndata/v8/v5/version.appBuild=`git rev-parse --short HEAD`"
 ```
 
 This produces a string like `dcrdata version 5.0.0-beta+25777e23 (Go version go1.12.1)`.
@@ -345,11 +345,11 @@ The path to the socket depends on the system, but it is commonly
 
 ### CockroachDB Support (experimental)
 
-While dcrdata now provides [support for CockroachDB](https://github.com/Decred-Next/dcrndata/issues/1291),
+While dcrdata now provides [support for CockroachDB](https://github.com/Decred-Next/dcrndata/v8/issues/1291),
 this is an experimental feature with caveats:
 
 - Compared to a well-configure PostgreSQL backend, CoackroachDB performance is
-  suboptimal. See the [CockroachDB issue](https://github.com/Decred-Next/dcrndata/issues/1291)
+  suboptimal. See the [CockroachDB issue](https://github.com/Decred-Next/dcrndata/v8/issues/1291)
   for more information.
 - The bulk of the testing and performance optimization is done with PostgreSQL
   in mind.
@@ -357,7 +357,7 @@ this is an experimental feature with caveats:
 If you decide to use CockroachDB with dcrdata, (1) do not do so in production
 and (2) expect some bugs and relatively poor performance.
 
-See [dcrdata's CockroachDB wiki page](https://github.com/Decred-Next/dcrndata/wiki/CockroachDB)
+See [dcrdata's CockroachDB wiki page](https://github.com/Decred-Next/dcrndata/v8/wiki/CockroachDB)
 for more information.
 
 ### Creating the dcrdata Configuration File
@@ -847,8 +847,8 @@ of objects implementing the `MempoolDataSaver` interface.
 
 ## Plans
 
-See the GitHub [issue trackers](https://github.com/Decred-Next/dcrndata/issues) and
-the [project milestones](https://github.com/Decred-Next/dcrndata/milestones).
+See the GitHub [issue trackers](https://github.com/Decred-Next/dcrndata/v8/issues) and
+the [project milestones](https://github.com/Decred-Next/dcrndata/v8/milestones).
 
 ## Contributing
 
@@ -859,7 +859,7 @@ here's the gist of it:
 2. Create a branch for your work (`git checkout -b cool-stuff`).
 3. Code something great.
 4. Commit and push to your repo.
-5. Create a [pull request](https://github.com/Decred-Next/dcrndata/compare).
+5. Create a [pull request](https://github.com/Decred-Next/dcrndata/v8/compare).
 
 **DO NOT merge from master to your feature branch; rebase.**
 

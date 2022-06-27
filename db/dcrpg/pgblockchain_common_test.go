@@ -11,8 +11,8 @@ import (
 	"time"
 
 	"github.com/Decred-Next/dcrnd/chaincfg/v8"
-	"github.com/Decred-Next/dcrndata/db/cache"
-	"github.com/Decred-Next/dcrndata/testutil/dbconfig"
+	"github.com/Decred-Next/dcrndata/v8/db/cache"
+	"github.com/Decred-Next/dcrndata/v8/testutil/dbconfig"
 	"github.com/Decred-Next/slog/v8"
 	pitypes "github.com/dmigwi/go-piparser/proposals/types"
 )

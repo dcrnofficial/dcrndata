@@ -24,15 +24,15 @@ import (
 	chainjson "github.com/Decred-Next/dcrnd/rpc/jsonrpc/types/version2/v8"
 	"github.com/Decred-Next/dcrnd/wire/v8"
 
-	"github.com/Decred-Next/dcrndata/blockdata"
-	"github.com/Decred-Next/dcrndata/db/dbtypes"
-	"github.com/Decred-Next/dcrndata/exchanges"
-	"github.com/Decred-Next/dcrndata/explorer/types"
-	"github.com/Decred-Next/dcrndata/gov/agendas"
-	pitypes "github.com/Decred-Next/dcrndata/gov/politeia/types"
-	"github.com/Decred-Next/dcrndata/mempool"
-	pstypes "github.com/Decred-Next/dcrndata/pubsub/types"
-	"github.com/Decred-Next/dcrndata/txhelpers"
+	"github.com/Decred-Next/dcrndata/v8/blockdata"
+	"github.com/Decred-Next/dcrndata/v8/db/dbtypes"
+	"github.com/Decred-Next/dcrndata/v8/exchanges"
+	"github.com/Decred-Next/dcrndata/v8/explorer/types"
+	"github.com/Decred-Next/dcrndata/v8/gov/agendas"
+	pitypes "github.com/Decred-Next/dcrndata/v8/gov/politeia/types"
+	"github.com/Decred-Next/dcrndata/v8/mempool"
+	pstypes "github.com/Decred-Next/dcrndata/v8/pubsub/types"
+	"github.com/Decred-Next/dcrndata/v8/txhelpers"
 
 	"github.com/go-chi/chi"
 	"github.com/go-chi/chi/middleware"
@@ -145,10 +145,10 @@ type links struct {
 var explorerLinks = &links{
 	CoinbaseComment: "https://github.com/Decred-Next/dcrnd/blob/master/chaincfg/mainnetparams.go#L36-L72",
 	POSExplanation:  "https://dcrn.xyz/proof-of-stake/overview/",
-	APIDocs:         "https://github.com/Decred-Next/dcrndata#apis",
-	InsightAPIDocs:  "https://github.com/Decred-Next/dcrndata/blob/master/api/Insight_API_documentation.md",
-	Github:          "https://github.com/Decred-Next/dcrndata",
-	License:         "https://github.com/Decred-Next/dcrndata/blob/master/LICENSE",
+	APIDocs:         "https://github.com/Decred-Next/dcrndata/v8#apis",
+	InsightAPIDocs:  "https://github.com/Decred-Next/dcrndata/v8/blob/master/api/Insight_API_documentation.md",
+	Github:          "https://github.com/Decred-Next/dcrndata/v8",
+	License:         "https://github.com/Decred-Next/dcrndata/v8/blob/master/LICENSE",
 	NetParams:       "https://github.com/Decred-Next/dcrnd/blob/master/chaincfg/params.go",
 	DownloadLink:    "https://dcrn.xyz/wallet",
 }

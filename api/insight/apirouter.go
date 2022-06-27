@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"net/http"
 
-	m "github.com/Decred-Next/dcrndata/middleware"
+	m "github.com/Decred-Next/dcrndata/v8/middleware"
 	"github.com/go-chi/chi"
 	"github.com/go-chi/chi/middleware"
 	"github.com/rs/cors"

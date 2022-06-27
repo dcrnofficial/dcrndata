@@ -11,7 +11,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/Decred-Next/dcrndata/dcrrates"
+	"github.com/Decred-Next/dcrndata/v8/dcrrates"
 	flags "github.com/jessevdk/go-flags"
 )
 

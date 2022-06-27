@@ -22,10 +22,10 @@ import (
 	"github.com/Decred-Next/dcrnd/dcrutil/version2/v8"
 	chainjson "github.com/Decred-Next/dcrnd/rpc/jsonrpc/types/version2/v8"
 	"github.com/Decred-Next/dcrnd/rpcclient/version5/v8"
-	apitypes "github.com/Decred-Next/dcrndata/api/types"
-	"github.com/Decred-Next/dcrndata/db/dbtypes"
-	m "github.com/Decred-Next/dcrndata/middleware"
-	"github.com/Decred-Next/dcrndata/rpcutils"
+	apitypes "github.com/Decred-Next/dcrndata/v8/api/types"
+	"github.com/Decred-Next/dcrndata/v8/db/dbtypes"
+	m "github.com/Decred-Next/dcrndata/v8/middleware"
+	"github.com/Decred-Next/dcrndata/v8/rpcutils"
 )
 
 type BlockDataSource interface {

@@ -16,9 +16,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Decred-Next/dcrndata/db/dcrpg"
-	"github.com/Decred-Next/dcrndata/rpcutils"
-	"github.com/Decred-Next/dcrndata/txhelpers"
+	"github.com/Decred-Next/dcrndata/v8/db/dcrpg"
+	"github.com/Decred-Next/dcrndata/v8/rpcutils"
+	"github.com/Decred-Next/dcrndata/v8/txhelpers"
 )
 
 func mainCore(ctx context.Context) error {

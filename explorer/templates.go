@@ -17,8 +17,8 @@ import (
 	"github.com/Decred-Next/dcrnd/chaincfg/v8"
 	"github.com/Decred-Next/dcrnd/dcrec/v8"
 	"github.com/Decred-Next/dcrnd/dcrutil/version2/v8"
-	"github.com/Decred-Next/dcrndata/db/dbtypes"
-	"github.com/Decred-Next/dcrndata/explorer/types"
+	"github.com/Decred-Next/dcrndata/v8/db/dbtypes"
+	"github.com/Decred-Next/dcrndata/v8/explorer/types"
 	humanize "github.com/dustin/go-humanize"
 )
 

@@ -12,9 +12,9 @@ import (
 
 	"github.com/Decred-Next/dcrnd/chaincfg/chainhash/v8"
 	"github.com/Decred-Next/dcrnd/wire/v8"
-	"github.com/Decred-Next/dcrndata/db/dcrpg/internal"
-	"github.com/Decred-Next/dcrndata/stakedb"
-	"github.com/Decred-Next/dcrndata/txhelpers"
+	"github.com/Decred-Next/dcrndata/v8/db/dcrpg/internal"
+	"github.com/Decred-Next/dcrndata/v8/stakedb"
+	"github.com/Decred-Next/dcrndata/v8/txhelpers"
 	"github.com/Decred-Next/dcrnwallet/wallet/version3/v8/txrules"
 	"github.com/lib/pq"
 )

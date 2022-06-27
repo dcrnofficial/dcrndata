@@ -1,19 +1,19 @@
-module github.com/Decred-Next/dcrndata/pubsub/democlient
+module github.com/Decred-Next/dcrndata/v8/pubsub/democlient
 
 go 1.12
 
 replace (
-	github.com/Decred-Next/dcrndata/pubsub/v4 => ../
-	github.com/Decred-Next/dcrndata/explorer/types/v2 => ../../explorer/types
+	github.com/Decred-Next/dcrndata/v8/pubsub/v4 => ../
+	github.com/Decred-Next/dcrndata/v8/explorer/types/v2 => ../../explorer/types
 )
 
 require (
 	github.com/Decred-Next/dcrnd/chaincfg/v2 v2.3.0
 	github.com/Decred-Next/dcrnd/dcrutil/v2 v2.0.1
-	github.com/Decred-Next/dcrndata/explorer/types/v2 v2.1.1
-	github.com/Decred-Next/dcrndata/pubsub/types/v3 v3.0.5
-	github.com/Decred-Next/dcrndata/pubsub/v4 v4.0.1
-	github.com/Decred-Next/dcrndata/semver v1.0.0
+	github.com/Decred-Next/dcrndata/v8/explorer/types/v2 v2.1.1
+	github.com/Decred-Next/dcrndata/v8/pubsub/types/v3 v3.0.5
+	github.com/Decred-Next/dcrndata/v8/pubsub/v4 v4.0.1
+	github.com/Decred-Next/dcrndata/v8/semver v1.0.0
 	github.com/Decred-Next/slog/v8 v8.0.1
 	github.com/google/go-cmp v0.3.0 // indirect
 	github.com/jessevdk/go-flags v1.4.0

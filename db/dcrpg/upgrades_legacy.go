@@ -14,11 +14,11 @@ import (
 	"github.com/Decred-Next/dcrnd/blockchain/stake/version2/v8"
 	"github.com/Decred-Next/dcrnd/chaincfg/chainhash/v8"
 	"github.com/Decred-Next/dcrnd/wire/v8"
-	"github.com/Decred-Next/dcrndata/db/dbtypes"
-	"github.com/Decred-Next/dcrndata/db/dcrpg/internal"
-	"github.com/Decred-Next/dcrndata/rpcutils"
-	"github.com/Decred-Next/dcrndata/semver"
-	"github.com/Decred-Next/dcrndata/txhelpers"
+	"github.com/Decred-Next/dcrndata/v8/db/dbtypes"
+	"github.com/Decred-Next/dcrndata/v8/db/dcrpg/internal"
+	"github.com/Decred-Next/dcrndata/v8/rpcutils"
+	"github.com/Decred-Next/dcrndata/v8/semver"
+	"github.com/Decred-Next/dcrndata/v8/txhelpers"
 )
 
 // The tables are versioned as follows. The major version is the same for all

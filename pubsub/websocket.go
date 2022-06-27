@@ -10,8 +10,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	exptypes "github.com/Decred-Next/dcrndata/explorer/types"
-	pstypes "github.com/Decred-Next/dcrndata/pubsub/types"
+	exptypes "github.com/Decred-Next/dcrndata/v8/explorer/types"
+	pstypes "github.com/Decred-Next/dcrndata/v8/pubsub/types"
 )
 
 type hubSpoke chan pstypes.HubMessage

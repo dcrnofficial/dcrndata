@@ -8,8 +8,8 @@ import (
 	"github.com/Decred-Next/dcrnd/blockchain/standalone/v8"
 	"github.com/Decred-Next/dcrnd/dcrutil/version2/v8"
 	chainjson "github.com/Decred-Next/dcrnd/rpc/jsonrpc/types/version2/v8"
-	apitypes "github.com/Decred-Next/dcrndata/api/types"
-	"github.com/Decred-Next/dcrndata/txhelpers"
+	apitypes "github.com/Decred-Next/dcrndata/v8/api/types"
+	"github.com/Decred-Next/dcrndata/v8/txhelpers"
 )
 
 // TxConverter converts dcrd-tx to insight tx

@@ -11,7 +11,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/Decred-Next/dcrndata/db/dcrpg/internal"
+	"github.com/Decred-Next/dcrndata/v8/db/dcrpg/internal"
 )
 
 // parseUnit is used to separate a "unit" from pg_settings such as "8kB" into a

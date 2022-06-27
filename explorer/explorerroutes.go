@@ -23,12 +23,12 @@ import (
 	chainjson "github.com/Decred-Next/dcrnd/rpc/jsonrpc/types/version2/v8"
 	"github.com/Decred-Next/dcrnd/txscript/version2/v8"
 
-	"github.com/Decred-Next/dcrndata/db/dbtypes"
-	"github.com/Decred-Next/dcrndata/exchanges"
-	"github.com/Decred-Next/dcrndata/explorer/types"
-	"github.com/Decred-Next/dcrndata/gov/agendas"
-	pitypes "github.com/Decred-Next/dcrndata/gov/politeia/types"
-	"github.com/Decred-Next/dcrndata/txhelpers"
+	"github.com/Decred-Next/dcrndata/v8/db/dbtypes"
+	"github.com/Decred-Next/dcrndata/v8/exchanges"
+	"github.com/Decred-Next/dcrndata/v8/explorer/types"
+	"github.com/Decred-Next/dcrndata/v8/gov/agendas"
+	pitypes "github.com/Decred-Next/dcrndata/v8/gov/politeia/types"
+	"github.com/Decred-Next/dcrndata/v8/txhelpers"
 
 	humanize "github.com/dustin/go-humanize"
 )

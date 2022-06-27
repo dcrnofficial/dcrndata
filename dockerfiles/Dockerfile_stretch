@@ -2,7 +2,7 @@ FROM golang:1.11-stretch
 RUN apt-get update && apt-get install -y vim tree lsof
 ENV GOPATH=/home/decred/go
 ENV PATH=/go/bin:/usr/local/go/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:$GOPATH/bin
-ENV DCRSRC_PATH=$GOPATH/src/github.com/Decred-Next/dcrndata/
+ENV DCRSRC_PATH=$GOPATH/src/github.com/Decred-Next/dcrndata/v8/
 ENV GO111MODULE=on
 RUN useradd decred -m -s /bin/bash && chown -R decred:decred /home/decred
 WORKDIR $DCRSRC_PATH
@@ -21,4 +21,4 @@ ENTRYPOINT ./dcrdata
 # running
 # docker run -ti --rm decred/dcrdata
 # or if attaching source volume and developing interactively
-# docker run -ti --entrypoint=/bin/bash -v ${PWD}:${PWD}:/home/decred/go/src/github.com/Decred-Next/dcrndata --rm decred/dcrdata
+# docker run -ti --entrypoint=/bin/bash -v ${PWD}:${PWD}:/home/decred/go/src/github.com/Decred-Next/dcrndata/v8 --rm decred/dcrdata

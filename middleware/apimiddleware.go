@@ -22,7 +22,7 @@ import (
 	"github.com/Decred-Next/dcrnd/dcrutil/version2/v8"
 	chainjson "github.com/Decred-Next/dcrnd/rpc/jsonrpc/types/version2/v8"
 	"github.com/Decred-Next/dcrnd/wire/v8"
-	apitypes "github.com/Decred-Next/dcrndata/api/types"
+	apitypes "github.com/Decred-Next/dcrndata/v8/api/types"
 	"github.com/didip/tollbooth/v5"
 	"github.com/didip/tollbooth/v5/limiter"
 	"github.com/go-chi/chi"

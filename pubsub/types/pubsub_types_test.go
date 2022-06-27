@@ -3,7 +3,7 @@ package types
 import (
 	"testing"
 
-	exptypes "github.com/Decred-Next/dcrndata/explorer/types"
+	exptypes "github.com/Decred-Next/dcrndata/v8/explorer/types"
 )
 
 func TestHubSignal_String(t *testing.T) {

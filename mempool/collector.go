@@ -17,10 +17,10 @@ import (
 	"github.com/Decred-Next/dcrnd/dcrutil/version2/v8"
 	chainjson "github.com/Decred-Next/dcrnd/rpc/jsonrpc/types/version2/v8"
 	"github.com/Decred-Next/dcrnd/rpcclient/version5/v8"
-	apitypes "github.com/Decred-Next/dcrndata/api/types"
-	exptypes "github.com/Decred-Next/dcrndata/explorer/types"
-	"github.com/Decred-Next/dcrndata/rpcutils"
-	"github.com/Decred-Next/dcrndata/txhelpers"
+	apitypes "github.com/Decred-Next/dcrndata/v8/api/types"
+	exptypes "github.com/Decred-Next/dcrndata/v8/explorer/types"
+	"github.com/Decred-Next/dcrndata/v8/rpcutils"
+	"github.com/Decred-Next/dcrndata/v8/txhelpers"
 	humanize "github.com/dustin/go-humanize"
 )
 

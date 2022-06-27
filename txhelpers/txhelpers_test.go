@@ -17,7 +17,7 @@ import (
 	chainjson "github.com/Decred-Next/dcrnd/rpc/jsonrpc/types/version2/v8"
 	"github.com/Decred-Next/dcrnd/rpcclient/version5/v8"
 	"github.com/Decred-Next/dcrnd/wire/v8"
-	"github.com/Decred-Next/dcrndata/semver"
+	"github.com/Decred-Next/dcrndata/v8/semver"
 )
 
 type TxGetter struct {

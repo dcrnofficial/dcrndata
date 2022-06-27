@@ -16,9 +16,9 @@ import (
 	"github.com/Decred-Next/dcrnd/chaincfg/chainhash/v8"
 	"github.com/Decred-Next/dcrnd/chaincfg/v8"
 	chainjson "github.com/Decred-Next/dcrnd/rpc/jsonrpc/types/version2/v8"
-	exptypes "github.com/Decred-Next/dcrndata/explorer/types"
-	pstypes "github.com/Decred-Next/dcrndata/pubsub/types"
-	"github.com/Decred-Next/dcrndata/txhelpers"
+	exptypes "github.com/Decred-Next/dcrndata/v8/explorer/types"
+	pstypes "github.com/Decred-Next/dcrndata/v8/pubsub/types"
+	"github.com/Decred-Next/dcrndata/v8/txhelpers"
 	humanize "github.com/dustin/go-humanize"
 )
 

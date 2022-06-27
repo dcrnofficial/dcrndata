@@ -7,7 +7,7 @@ import (
 	"os"
 	"path/filepath"
 
-	tc "github.com/Decred-Next/dcrndata/testutil/dbconfig"
+	tc "github.com/Decred-Next/dcrndata/v8/testutil/dbconfig"
 	_ "github.com/lib/pq"
 )
 

@@ -28,14 +28,14 @@ import (
 	chainjson "github.com/Decred-Next/dcrnd/rpc/jsonrpc/types/version2/v8"
 	"github.com/Decred-Next/dcrnd/rpcclient/version5/v8"
 	"github.com/Decred-Next/dcrnd/wire/v8"
-	apitypes "github.com/Decred-Next/dcrndata/api/types"
-	"github.com/Decred-Next/dcrndata/db/cache"
-	"github.com/Decred-Next/dcrndata/db/dbtypes"
-	"github.com/Decred-Next/dcrndata/exchanges"
-	"github.com/Decred-Next/dcrndata/gov/agendas"
-	m "github.com/Decred-Next/dcrndata/middleware"
-	"github.com/Decred-Next/dcrndata/txhelpers"
-	appver "github.com/Decred-Next/dcrndata/version"
+	apitypes "github.com/Decred-Next/dcrndata/v8/api/types"
+	"github.com/Decred-Next/dcrndata/v8/db/cache"
+	"github.com/Decred-Next/dcrndata/v8/db/dbtypes"
+	"github.com/Decred-Next/dcrndata/v8/exchanges"
+	"github.com/Decred-Next/dcrndata/v8/gov/agendas"
+	m "github.com/Decred-Next/dcrndata/v8/middleware"
+	"github.com/Decred-Next/dcrndata/v8/txhelpers"
+	appver "github.com/Decred-Next/dcrndata/v8/version"
 )
 
 // maxBlockRangeCount is the maximum number of blocks that can be requested at

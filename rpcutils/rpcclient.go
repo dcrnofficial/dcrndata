@@ -18,9 +18,9 @@ import (
 	chainjson "github.com/Decred-Next/dcrnd/rpc/jsonrpc/types/version2/v8"
 	"github.com/Decred-Next/dcrnd/rpcclient/version5/v8"
 	"github.com/Decred-Next/dcrnd/wire/v8"
-	apitypes "github.com/Decred-Next/dcrndata/api/types"
-	"github.com/Decred-Next/dcrndata/semver"
-	"github.com/Decred-Next/dcrndata/txhelpers"
+	apitypes "github.com/Decred-Next/dcrndata/v8/api/types"
+	"github.com/Decred-Next/dcrndata/v8/semver"
+	"github.com/Decred-Next/dcrndata/v8/txhelpers"
 )
 
 // Any of the following dcrd RPC API versions are deemed compatible with
