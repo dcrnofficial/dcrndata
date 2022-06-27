@@ -6,8 +6,8 @@ import (
 	"testing"
 
 	"github.com/Decred-Next/dcrnd/chaincfg/v8"
-	"github.com/Decred-Next/dcrndata/db/dcrpg/v8"
-	"github.com/Decred-Next/dcrndata/explorer/types/v8"
+	"github.com/Decred-Next/dcrndata/db/dcrpg"
+	"github.com/Decred-Next/dcrndata/explorer/types"
 )
 
 const (

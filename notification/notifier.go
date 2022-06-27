@@ -29,8 +29,8 @@ import (
 	chainjson "github.com/Decred-Next/dcrnd/rpc/jsonrpc/types/version2/v8"
 	"github.com/Decred-Next/dcrnd/rpcclient/version5/v8"
 	"github.com/Decred-Next/dcrnd/wire/v8"
-	"github.com/Decred-Next/dcrndata/rpcutils/v8"
-	"github.com/Decred-Next/dcrndata/txhelpers/v8"
+	"github.com/Decred-Next/dcrndata/rpcutils"
+	"github.com/Decred-Next/dcrndata/txhelpers"
 )
 
 // SyncHandlerDeadline is a hard deadline for handlers to finish handling before

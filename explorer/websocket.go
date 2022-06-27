@@ -9,8 +9,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Decred-Next/dcrndata/explorer/types/v8"
-	pstypes "github.com/Decred-Next/dcrndata/pubsub/types/v8"
+	"github.com/Decred-Next/dcrndata/explorer/types"
+	pstypes "github.com/Decred-Next/dcrndata/pubsub/types"
 )
 
 const (

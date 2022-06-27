@@ -5,7 +5,7 @@
 package dcrpg
 
 import (
-	"github.com/Decred-Next/dcrndata/db/cache/v8"
+	"github.com/Decred-Next/dcrndata/db/cache"
 	"github.com/Decred-Next/slog/v8"
 )
 

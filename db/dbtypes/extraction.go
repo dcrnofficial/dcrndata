@@ -9,7 +9,7 @@ import (
 	"github.com/Decred-Next/dcrnd/chaincfg/v8"
 	"github.com/Decred-Next/dcrnd/txscript/version2/v8"
 	"github.com/Decred-Next/dcrnd/wire/v8"
-	"github.com/Decred-Next/dcrndata/txhelpers/v8"
+	"github.com/Decred-Next/dcrndata/txhelpers"
 	"github.com/Decred-Next/dcrnwallet/wallet/version3/v8/txrules"
 )
 

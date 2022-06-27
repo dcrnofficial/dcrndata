@@ -10,9 +10,9 @@ import (
 
 	"github.com/Decred-Next/dcrnd/dcrutil/version2/v8"
 	chainjson "github.com/Decred-Next/dcrnd/rpc/jsonrpc/types/version2/v8"
-	apitypes "github.com/Decred-Next/dcrndata/api/types/v8"
-	"github.com/Decred-Next/dcrndata/db/dbtypes/v8"
-	exptypes "github.com/Decred-Next/dcrndata/explorer/types/v8"
+	apitypes "github.com/Decred-Next/dcrndata/api/types"
+	"github.com/Decred-Next/dcrndata/db/dbtypes"
+	exptypes "github.com/Decred-Next/dcrndata/explorer/types"
 )
 
 // MempoolDataCache models the basic data for the mempool cache.

@@ -13,8 +13,8 @@ import (
 	"strconv"
 	"strings"
 
-	apitypes "github.com/Decred-Next/dcrndata/api/types/v8"
-	m "github.com/Decred-Next/dcrndata/middleware/v8"
+	apitypes "github.com/Decred-Next/dcrndata/api/types"
+	m "github.com/Decred-Next/dcrndata/middleware"
 	"github.com/go-chi/chi"
 )
 

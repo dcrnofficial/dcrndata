@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/Decred-Next/dcrndata/dcrrates/v8"
-	"github.com/Decred-Next/dcrndata/exchanges/v8"
+	"github.com/Decred-Next/dcrndata/dcrrates"
+	"github.com/Decred-Next/dcrndata/exchanges"
 	grpcPeer "google.golang.org/grpc/peer"
 )
 

@@ -12,10 +12,10 @@ import (
 
 	"github.com/Decred-Next/dcrnd/chaincfg/v8"
 	"github.com/Decred-Next/dcrnd/dcrutil/version2/v8"
-	exptypes "github.com/Decred-Next/dcrndata/explorer/types/v8"
-	pstypes "github.com/Decred-Next/dcrndata/pubsub/types/v8"
+	exptypes "github.com/Decred-Next/dcrndata/explorer/types"
+	pstypes "github.com/Decred-Next/dcrndata/pubsub/types"
 	"github.com/Decred-Next/pubsub/v8/psclient"
-	"github.com/Decred-Next/dcrndata/semver/v8"
+	"github.com/Decred-Next/dcrndata/semver"
 	"github.com/Decred-Next/slog/v8"
 	survey "gopkg.in/AlecAivazis/survey.v1"
 )

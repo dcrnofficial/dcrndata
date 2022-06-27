@@ -12,8 +12,8 @@ import (
 	"time"
 
 	chainjson "github.com/Decred-Next/dcrnd/rpc/jsonrpc/types/version2/v8"
-	"github.com/Decred-Next/dcrndata/db/dbtypes/v8"
-	"github.com/Decred-Next/dcrndata/txhelpers/v8"
+	"github.com/Decred-Next/dcrndata/db/dbtypes"
+	"github.com/Decred-Next/dcrndata/txhelpers"
 )
 
 // TimeAPI is a fall back dbtypes.TimeDef wrapper that allows API endpoints that

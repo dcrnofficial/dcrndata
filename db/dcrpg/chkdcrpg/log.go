@@ -9,9 +9,9 @@ import (
 	"path/filepath"
 
 	"github.com/Decred-Next/dcrnd/rpcclient/version5/v8"
-	"github.com/Decred-Next/dcrndata/db/dcrpg/v8"
-	"github.com/Decred-Next/dcrndata/rpcutils/v8"
-	"github.com/Decred-Next/dcrndata/stakedb/v8"
+	"github.com/Decred-Next/dcrndata/db/dcrpg"
+	"github.com/Decred-Next/dcrndata/rpcutils"
+	"github.com/Decred-Next/dcrndata/stakedb"
 	"github.com/Decred-Next/slog/v8"
 	"github.com/jrick/logrotate/rotator"
 )

@@ -136,7 +136,7 @@ func (l *badgerLogger) Errorf(format string, v ...interface{}) {
 func NewTicketPool(dataDir, dbSubDir string) (tp *TicketPool, err error) {
 	// Open ticket pool diffs database
 	badgerDbPath := filepath.Join(dataDir, dbSubDir)
-	opts := badger.DefaultOptions
+	opts := badger.DefaultOptions(badgerDbPath)
 	opts.Dir = badgerDbPath
 	opts.ValueDir = badgerDbPath
 	opts.Logger = &badgerLogger{log}
@@ -175,7 +175,7 @@ func NewTicketPool(dataDir, dbSubDir string) (tp *TicketPool, err error) {
 	}
 
 	// Attempt migration from storm to badger if badger was empty
-	TableInfo := db.Tables()
+	TableInfo := db.Tables(false)
 	oldDBPath := filepath.Join(dataDir, DefaultTicketPoolDbName)
 	if len(TableInfo) == 0 {
 		migrated, err := MigrateFromStorm(oldDBPath, db)

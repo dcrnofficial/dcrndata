@@ -13,7 +13,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Decred-Next/dcrndata/dcrrates/v8"
+	"github.com/Decred-Next/dcrndata/dcrrates"
 )
 
 func makeKillSwitch() chan os.Signal {

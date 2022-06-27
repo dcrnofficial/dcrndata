@@ -14,8 +14,8 @@ import (
 	"time"
 
 	"github.com/Decred-Next/dcrnd/chaincfg/v8"
-	"github.com/Decred-Next/dcrndata/semver/v8"
-	"github.com/Decred-Next/dcrndata/txhelpers/v8"
+	"github.com/Decred-Next/dcrndata/semver"
+	"github.com/Decred-Next/dcrndata/txhelpers"
 )
 
 // Keys for specifying chart data type.

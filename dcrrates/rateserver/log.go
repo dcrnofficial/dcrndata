@@ -8,7 +8,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/Decred-Next/dcrndata/exchanges/v8"
+	"github.com/Decred-Next/dcrndata/exchanges"
 	"github.com/Decred-Next/slog/v8"
 	"github.com/jrick/logrotate/rotator"
 )

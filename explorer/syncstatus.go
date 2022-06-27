@@ -5,8 +5,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Decred-Next/dcrndata/db/dbtypes/v8"
-	pstypes "github.com/Decred-Next/dcrndata/pubsub/types/v8"
+	"github.com/Decred-Next/dcrndata/db/dbtypes"
+	pstypes "github.com/Decred-Next/dcrndata/pubsub/types"
 )
 
 // SyncStatusInfo defines information for a single progress bar.

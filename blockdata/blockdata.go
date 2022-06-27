@@ -15,10 +15,10 @@ import (
 	chainjson "github.com/Decred-Next/dcrnd/rpc/jsonrpc/types/version2/v8"
 	"github.com/Decred-Next/dcrnd/rpcclient/version5/v8"
 	"github.com/Decred-Next/dcrnd/wire/v8"
-	apitypes "github.com/Decred-Next/dcrndata/api/types/v8"
-	"github.com/Decred-Next/dcrndata/db/dbtypes/v8"
-	"github.com/Decred-Next/dcrndata/stakedb/v8"
-	"github.com/Decred-Next/dcrndata/txhelpers/v8"
+	apitypes "github.com/Decred-Next/dcrndata/api/types"
+	"github.com/Decred-Next/dcrndata/db/dbtypes"
+	"github.com/Decred-Next/dcrndata/stakedb"
+	"github.com/Decred-Next/dcrndata/txhelpers"
 )
 
 // BlockData contains all the data collected by a Collector and stored
