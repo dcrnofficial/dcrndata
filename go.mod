@@ -56,3 +56,7 @@ require (
 	golang.org/x/net v0.0.0-20210226172049-e18ecbb05110
 	google.golang.org/grpc v1.32.0
 )
+
+replace (
+	github.com/Decred-Next/dcrnd/wire/v8 => ../dcrnd/wire
+)
