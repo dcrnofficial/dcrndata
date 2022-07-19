@@ -7,7 +7,7 @@ require (
 	github.com/Decred-Next/dcrnd/blockchain/stake/version2/v8 v8.0.11
 	github.com/Decred-Next/dcrnd/blockchain/standalone/v8 v8.0.11
 	github.com/Decred-Next/dcrnd/certgen/v8 v8.0.11
-	github.com/Decred-Next/dcrnd/chaincfg/chainhash/v8 v8.0.11
+	github.com/Decred-Next/dcrnd/chaincfg/chainhash/v8 v8.0.12
 	github.com/Decred-Next/dcrnd/chaincfg/v8 v8.0.11
 	github.com/Decred-Next/dcrnd/database/v8 v8.0.11
 	github.com/Decred-Next/dcrnd/dcrec/v8 v8.0.11
@@ -16,7 +16,7 @@ require (
 	github.com/Decred-Next/dcrnd/rpc/jsonrpc/types/version2/v8 v8.0.11
 	github.com/Decred-Next/dcrnd/rpcclient/version5/v8 v8.0.11
 	github.com/Decred-Next/dcrnd/txscript/version2/v8 v8.0.11
-	github.com/Decred-Next/dcrnd/wire/v8 v8.0.11
+	github.com/Decred-Next/dcrnd/wire/v8 v8.0.12
 	github.com/Decred-Next/dcrnwallet/wallet/version3/v8 v8.0.12
 	github.com/Decred-Next/slog/v8 v8.0.1
 	github.com/asdine/storm/v3 v3.2.1
@@ -58,5 +58,7 @@ require (
 )
 
 replace (
+	github.com/Decred-Next/dcrnd/chaincfg/v8 => ../dcrnd/chaincfg
 	github.com/Decred-Next/dcrnd/wire/v8 => ../dcrnd/wire
+
 )

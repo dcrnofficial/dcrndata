@@ -23,7 +23,7 @@ import (
 	"github.com/Decred-Next/dcrnd/chaincfg/chainhash/v8"
 	"github.com/Decred-Next/dcrnd/rpcclient/version5/v8"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
-
+	"github.com/Decred-Next/dcrnd/chaincfg/v8"
 	"github.com/Decred-Next/dcrndata/v8/blockdata"
 	"github.com/Decred-Next/dcrndata/v8/db/cache"
 	"github.com/Decred-Next/dcrndata/v8/db/dbtypes"
@@ -79,7 +79,13 @@ func _main(ctx context.Context) error {
 			logRotator.Close()
 		}
 	}()
-
+	if cfg.TestNet{
+		params := chaincfg.TestNet3Params()
+		log.Infof("test net:%d",uint32(params.Net))
+	}else if !cfg.TestNet && !cfg.SimNet {
+		params := chaincfg.MainNetParams()
+		log.Infof("main net:%d",uint32(params.Net))
+	}
 	if cfg.CPUProfile != "" {
 		var f *os.File
 		f, err = os.Create(cfg.CPUProfile)
