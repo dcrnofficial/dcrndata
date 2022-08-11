@@ -1,4 +1,4 @@
-// Copyright (c) 2018-2019, The Decred-Next developers
+// Copyright (c) 2018-2019, The DCRN developers
 // Copyright (c) 2017, The dcrdata developers
 // See LICENSE for details.
 
@@ -143,13 +143,13 @@ type links struct {
 }
 
 var explorerLinks = &links{
-	CoinbaseComment: "https://github.com/Decred-Next/dcrnd/blob/master/chaincfg/mainnetparams.go#L36-L72",
+	CoinbaseComment: "https://github.com/DCRN/dcrnd/blob/master/chaincfg/mainnetparams.go#L36-L72",
 	POSExplanation:  "https://dcrn.xyz/proof-of-stake/overview/",
-	APIDocs:         "https://github.com/Decred-Next/dcrndata#apis",
-	InsightAPIDocs:  "https://github.com/Decred-Next/dcrndata/blob/master/api/Insight_API_documentation.md",
-	Github:          "https://github.com/Decred-Next/dcrndata",
-	License:         "https://github.com/Decred-Next/dcrndata/blob/master/LICENSE",
-	NetParams:       "https://github.com/Decred-Next/dcrnd/blob/master/chaincfg/params.go",
+	APIDocs:         "https://github.com/DCRN/dcrndata#apis",
+	InsightAPIDocs:  "https://github.com/DCRN/dcrndata/blob/master/api/Insight_API_documentation.md",
+	Github:          "https://github.com/DCRN/dcrndata",
+	License:         "https://github.com/DCRN/dcrndata/blob/master/LICENSE",
+	NetParams:       "https://github.com/DCRN/dcrnd/blob/master/chaincfg/params.go",
 	DownloadLink:    "https://dcrn.xyz/wallet",
 }
 

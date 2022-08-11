@@ -50,16 +50,16 @@ From the repository source folder, do the following to build the Docker image,
 and compile dcrdata into your current directory:
 
 - `docker build --squash -t decred/dcrdata:dev-alpine .` [Only build the container image if necessary](#building-the-image)
-- `docker run --entrypoint="" -v ${PWD}:/home/decred/go/src/github.com/Decred-Next/dcrndata --rm decred/dcrdata:dev-alpine go build`
+- `docker run --entrypoint="" -v ${PWD}:/home/decred/go/src/github.com/DCRN/dcrndata --rm decred/dcrdata:dev-alpine go build`
 
 This mounts your current working directory in the host machine on a volume
 inside the container so that the build output will be on the host file system.
 
 Build for other platforms as follows:
 
-`docker run -e GOOS=darwin -e GOARCH=amd64 --entrypoint="" -v ${PWD}:/home/decred/go/src/github.com/Decred-Next/dcrndata --rm decred/dcrdata:dev-alpine go build`
+`docker run -e GOOS=darwin -e GOARCH=amd64 --entrypoint="" -v ${PWD}:/home/decred/go/src/github.com/DCRN/dcrndata --rm decred/dcrdata:dev-alpine go build`
 
-`docker run -e GOOS=windows -e GOARCH=amd64 --entrypoint="" -v ${PWD}:/home/decred/go/src/github.com/Decred-Next/dcrndata --rm decred/dcrdata:dev-alpine go build`
+`docker run -e GOOS=windows -e GOARCH=amd64 --entrypoint="" -v ${PWD}:/home/decred/go/src/github.com/DCRN/dcrndata --rm decred/dcrdata:dev-alpine go build`
 
 ## Developing dcrdata Using a Container
 
@@ -77,7 +77,7 @@ application. Suggestions for developing in a container:
 To make the source code from the host available inside the container, attach a
 volume to the container when launching the image:
 
-`docker run -ti --entrypoint="" -v ${PWD}:/home/decred/go/src/github.com/Decred-Next/dcrndata --rm decred/dcrdata:dev-alpine /bin/bash`
+`docker run -ti --entrypoint="" -v ${PWD}:/home/decred/go/src/github.com/DCRN/dcrndata --rm decred/dcrdata:dev-alpine /bin/bash`
 
 _Note_: Changing `entrypoint` allows you to run commands in the container since
 the default container command runs dcrdata. We also added /bin/bash at the
@@ -93,7 +93,7 @@ variables may be set inside the container or on the [command
 line](https://docs.docker.com/engine/reference/run/#env-environment-variables).
 For example,
 
-`docker run -ti --entrypoint=/bin/bash -e DCRDATA_LISTEN_URL=0.0.0.0:2222 -v ${PWD}:/home/decred/go/src/github.com/Decred-Next/dcrndata --rm decred/dcrdata:dev-alpine`
+`docker run -ti --entrypoint=/bin/bash -e DCRDATA_LISTEN_URL=0.0.0.0:2222 -v ${PWD}:/home/decred/go/src/github.com/DCRN/dcrndata --rm decred/dcrdata:dev-alpine`
 
 ## Container Production Usage
 

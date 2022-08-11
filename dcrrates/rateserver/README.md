@@ -14,7 +14,7 @@ go build
 ./rateserver
 ```
 
-See [DCRData's notes on Go](https://github.com/Decred-Next/dcrndata#building-dcrdata-with-go-111)
+See [DCRData's notes on Go](https://github.com/DCRN/dcrndata#building-dcrdata-with-go-111)
 for additional configuration details.
 
 ### TLS

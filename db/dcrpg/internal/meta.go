@@ -1,4 +1,4 @@
-// Copyright (c) 2019, The Decred-Next developers
+// Copyright (c) 2019, The DCRN developers
 // See LICENSE for details.
 
 package internal

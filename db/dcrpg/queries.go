@@ -1,4 +1,4 @@
-// Copyright (c) 2018-2020, The Decred-Next developers
+// Copyright (c) 2018-2020, The DCRN developers
 // Copyright (c) 2017, The dcrdata developers
 // See LICENSE for details.
 

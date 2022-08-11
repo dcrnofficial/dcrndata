@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-{{template "html-head" printf "Decred-Next Address %s" .Data.Address}}
+{{template "html-head" printf "DCRN Address %s" .Data.Address}}
     {{template "navbar" . }}
     {{- with .Data}}
     {{- $TxnCount := add .TxnCount .NumUnconfirmed}}
@@ -20,7 +20,7 @@
     <div class="row pb-4 px-2">
       <div class="col-24 col-xl-10 bg-white px-3 py-3 position-relative">
           {{- if eq .Address $.DevAddress}}
-              <div class="fs22 pb-3">Decred-Next Treasury</div>
+              <div class="fs22 pb-3">DCRN Treasury</div>
           {{- else}}
               <div class="fs22 pb-3">Address</div>
           {{- end}}
@@ -103,7 +103,7 @@
               {{- end}}
           </div>
           <div class="row pb-3 fs16">
-            <span class="col-24"><a href="{{$.Links.DownloadLink}}" title="Decred-Next downloads" target="_blank" rel="noopener noreferrer">Get MyDCRN</a>, the official desktop wallet.</span>
+            <span class="col-24"><a href="{{$.Links.DownloadLink}}" title="DCRN downloads" target="_blank" rel="noopener noreferrer">Get MyDCRN</a>, the official desktop wallet.</span>
           </div>
           <div class="pb-1 fs14">
             {{if .IsDummyAddress}}

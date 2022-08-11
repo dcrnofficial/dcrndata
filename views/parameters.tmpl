@@ -1,12 +1,12 @@
 {{define "parameters"}}
 <!DOCTYPE html>
 <html lang="en">
-    {{ template "html-head" printf "Decred-Next Chain Parameters"}}
+    {{ template "html-head" printf "DCRN Chain Parameters"}}
         {{template "navbar" . }}
         <div class="container main">
             <div class="row justify-content-between">
                 <div class="col-lg-14 col-sm-12 d-flex">
-                    <h4 class="mb-2">Parameters for Decred-Next {{.ChainParams.Name}}
+                    <h4 class="mb-2">Parameters for DCRN {{.ChainParams.Name}}
                       <span class="fs12" >
                         from <a href="{{.Links.NetParams}}">chaincfg/params.go</a>
                       </span>
@@ -176,7 +176,7 @@
                             <tr>
                                 <td class="mono text-left pr-2 nowrap p03rem0">TicketsPerBlock</td>
                                 <td class="mono">{{.ChainParams.TicketsPerBlock}}</td>
-                                <td>Average number of tickets per block for Decred-Next PoS</td>
+                                <td>Average number of tickets per block for DCRN PoS</td>
                             </tr>
                             <tr>
                                 <td class="mono text-left pr-2 nowrap p03rem0">TicketMaturity</td>

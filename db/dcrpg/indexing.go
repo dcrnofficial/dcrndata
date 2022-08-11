@@ -1,4 +1,4 @@
-// Copyright (c) 2018, The Decred-Next developers
+// Copyright (c) 2018, The DCRN developers
 // See LICENSE for details.
 
 package dcrpg

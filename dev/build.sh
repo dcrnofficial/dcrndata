@@ -21,7 +21,7 @@
 #   utility is not used since 7za compression rates are slightly better even for
 #   the gz format.
 #
-# Copyright (c) 2018-2019, The Decred-Next developers.
+# Copyright (c) 2018-2019, The DCRN developers.
 # See LICENSE for details.
 
 REPO=`git rev-parse --show-toplevel 2> /dev/null`

@@ -1,4 +1,4 @@
-// Copyright (c) 2019-2020, The Decred-Next developers
+// Copyright (c) 2019-2020, The DCRN developers
 // See LICENSE for details.
 
 package cache
