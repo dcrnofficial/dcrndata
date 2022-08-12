@@ -143,13 +143,13 @@ type links struct {
 }
 
 var explorerLinks = &links{
-	CoinbaseComment: "https://github.com/DCRN/dcrnd/blob/master/chaincfg/mainnetparams.go#L36-L72",
+	CoinbaseComment: "https://github.com/dcrnofficial/dcrnd/blob/master/chaincfg/mainnetparams.go#L36-L72",
 	POSExplanation:  "https://dcrn.xyz/proof-of-stake/overview/",
-	APIDocs:         "https://github.com/DCRN/dcrndata#apis",
-	InsightAPIDocs:  "https://github.com/DCRN/dcrndata/blob/master/api/Insight_API_documentation.md",
-	Github:          "https://github.com/DCRN/dcrndata",
-	License:         "https://github.com/DCRN/dcrndata/blob/master/LICENSE",
-	NetParams:       "https://github.com/DCRN/dcrnd/blob/master/chaincfg/params.go",
+	APIDocs:         "https://github.com/dcrnofficial/dcrndata#apis",
+	InsightAPIDocs:  "https://github.com/dcrnofficial/dcrndata/blob/master/api/Insight_API_documentation.md",
+	Github:          "https://github.com/dcrnofficial/dcrndata",
+	License:         "https://github.com/dcrnofficial/dcrndata/blob/master/LICENSE",
+	NetParams:       "https://github.com/dcrnofficial/dcrnd/blob/master/chaincfg/params.go",
 	DownloadLink:    "https://dcrn.xyz/wallet",
 }
 
